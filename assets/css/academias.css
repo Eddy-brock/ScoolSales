@@ -1,0 +1,207 @@
+.academias {
+  background-color: #043154;
+}
+.academias .academias_header {
+  margin-bottom: 2%;
+}
+.academias .academias_header h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4.8px;
+  color: #FFFFFF;
+}
+.academias .academias_header h3 {
+  margin-top: 28px;
+  font-family: "Acumin Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  /* identical to box height, or 119% */
+  text-align: center;
+  color: #D79C3D;
+}
+.academias .academias_sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 93.87px;
+}
+.academias .academias_sections .arrowL, .academias .academias_sections .arrowR {
+  position: absolute;
+  display: none;
+}
+.academias .academias_sections .academia {
+  position: relative;
+  height: 117.89px;
+  width: 25%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 42.11px;
+  color: white;
+}
+.academias .academias_sections .academia span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  /* identical to box height, or 120% */
+  color: #FFFFFF;
+  margin: 0 1%;
+}
+.academias .academias_sections .academia .button_escuelas {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.academias .academias_sections .academia .drop-content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8980392157);
+  width: 95%;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 10px;
+  z-index: 1;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16.8px;
+  text-align: center;
+  color: #043154;
+  margin: 10px auto;
+  text-transform: none;
+}
+.academias .academias_sections .academia .drop-content .close-drop {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
+.academias .academias_sections .academia .drop-content .drop-links a {
+  display: block;
+  color: #033154;
+  padding: 2% 0;
+}
+.academias .academias_sections .academia .drop-content .drop-links a:hover {
+  color: #D79C3D;
+  font-weight: 800;
+}
+.academias .academias_sections .academia .drop-content .drop-links .borderB {
+  border-bottom: 1px solid #043154;
+}
+.academias picture img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (max-width: 900px) {
+  .academias {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .academias .academias_header {
+    width: 100vw;
+  }
+  .academias .academias_sections {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    min-width: calc(100% - 100px);
+    width: 100vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+  }
+  .academias .academias_sections .arrowL, .academias .academias_sections .arrowR {
+    position: fixed;
+    top: 50;
+    margin-top: 10px;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    cursor: pointer !important;
+    z-index: 1;
+  }
+  .academias .academias_sections .arrowL {
+    left: 0;
+    background-image: url("../img/iconos/flecha-izquierda.svg");
+  }
+  .academias .academias_sections .arrowR {
+    right: 0;
+    background-image: url("../img/iconos/flecha-derecha.svg");
+  }
+  .academias .academias_sections .academia {
+    min-width: 100%;
+    height: 60vh;
+    border: none;
+    position: inherit;
+  }
+  .academias .academias_sections .academia .drop-content {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: calc(100% - 100px);
+  }
+  .academias .academias_sections .academia .drop-content .up-drop img {
+    width: 7%;
+  }
+  .academias .academias_sections .academia .drop-content .down-drop img {
+    width: 7%;
+  }
+  .academias .academias_sections .academia .drop-content .drop-links {
+    height: 100%;
+    display: grid;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+  .academias .academias_sections .academia .drop-content .drop-links a {
+    font-size: 20px;
+  }
+  .academias .academias_sections .academia .button_escuelas {
+    position: inherit;
+    margin-top: 3rem;
+  }
+}
+.hide {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */
