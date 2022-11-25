@@ -290,23 +290,20 @@ a {
 }
 
 .main-section {
-  height: calc(100vh - 60px);
+  height: calc(100vh);
   background-image: url("../img/Back-01.png");
   background-size: cover;
   background-position: center;
   color: white;
   font-family: "Raleway";
-  margin-top: -15px;
 }
 .main-section .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 7%;
 }
 .main-section .navbar img {
   width: auto;
-  height: 50px;
 }
 .main-section .navbar .nav-right {
   display: flex;
@@ -333,13 +330,6 @@ a {
 .main-wellcome {
   font-family: "Raleway";
   text-align: center;
-}
-.main-wellcome .profilepic {
-  background-image: url("../img/Inicio-Fondo-02.png");
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 6%;
 }
 .main-wellcome .profilepic img {
   border-radius: 50%;
@@ -397,10 +387,10 @@ a {
 }
 @media screen and (max-width: 1500px) {
   .main-wellcome .profilepic {
-    padding-top: 4%;
+    padding-top: 1%;
   }
   .main-wellcome .profilepic img {
-    height: 150px;
+    height: 100px;
   }
   .main-wellcome h1 {
     font-size: 40px;
@@ -1161,3 +1151,29 @@ a {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boxRight {
+  background-color: #36ad56;
+  border-radius: 18px;
+  padding: 4%;
+  cursor: pointer;
+}
+
+.boxLeft {
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #000;
+}
