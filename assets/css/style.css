@@ -808,8 +808,7 @@ a {
   background-size: cover;
   text-align: center;
   color: white;
-  margin-top: 0px;
-  padding-bottom: 0%;
+
 }
 .imgpie{
   background-image: url("../img/scool/PNG/Linea categorías-01.png");
@@ -866,7 +865,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .competencias {
-    background-image: url("../img/scool/back-01.png");
+    background-image: url("../img/scool/PNG/back-01.png");
     background-position: bottom;
   }
   .competencias h1 {
