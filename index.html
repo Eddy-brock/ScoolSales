@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./assets/css/jquery.pagepiling.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/academias.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="./assets/js/academias.js" defer></script>
   <style>
       #ctl00_pnlBR {
@@ -69,35 +70,50 @@
       <div class="main-section section" id="Main">
           <div class="navbar">
               <div class="nav-left">
-                  <img src="/content/grupobimbo/publications/10210/img/iconos/GB University Logo.svg" alt="">
+                <br />
+                <img src="./assets/img/Logo academia-esc-01.png" alt="" style="width: 300px;">
               </div>
               <div class="nav-right">
                   <a class="nav-icon" style="visibility: hidden;"><img src="/content/grupobimbo/publications/10210/img/iconos/GB Reloj.svg" alt=""></a>
                   <a class="nav-icon" style="visibility: hidden;"><img src="/content/grupobimbo/publications/10210/img/iconos/GB Engrane.svg" alt=""></a>
               </div>
           </div>
+          <br />
           <div class="main-wellcome">
-              <div class="profilepic">
-                  <div id="ProfileImageWrapper">
-                      <a id="ProfileImageLink" href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio&amp;tab_page_id=-20016001">
-                        <div class="ProfileImageContainer" id="Image2">
-                        </div>
-                      </a>
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg">
+                    col-sm
+                  </div>
+                  <div class="col-lg">
+                    <div class="profilepic">
+                        <div id="ProfileImageWrapper">
+                            <a id="ProfileImageLink" href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio&amp;tab_page_id=-20016001">
+                              <div class="ProfileImageContainer" id="Image2">
+                              </div>
+                            </a>
+                          </div>
+                        <img src="../img/cuadro.jpg" alt="">
                     </div>
-                  <img src="../img/cuadro.jpg" alt="">
-              </div>
-              <div class="wellcome-txt">
-                  ¡Hola, {FIRSTNAME}!
-              </div>
-              <h1>¿QUÉ TE GUSTARÍA<br> APRENDER HOY?</h1>
-              <div class="buscador">
-                  <!-- Ir al Buscador de Aprendizaje -->
-                  <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)" value="" placeholder="Escribelo aquí">
-                  <img class="search-icon" onclick="search()" src="./assets/img/search-icon.svg" alt="">
-              </div>
-              <div class="swipe">
-                  <div>Desliza hacia arriba</div>
-                  <img src="./assets/img/GBU Flecha Arriba.svg" alt="">
+                    <div class="wellcome-txt">
+                        ¡Hola, {FIRSTNAME}!
+                    </div>
+                    <h6>¡Aquí encontrarás todos los contenidos</h6>
+                    <h6>que <b>THE SALES SCHOOL</b> tiene para ti!</h6>
+                    <div class="buscador">
+                        <!-- Ir al Buscador de Aprendizaje -->
+                        <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)" value="" placeholder="¿Qué te gustaría aprender hoy? Escribelo aquí">
+                        <img class="search-icon" onclick="search()" src="./assets/img/search-icon.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg align-middle" style="display: flex; align-items: center; justify-content: center;">
+                    col-sm
+                  </div>
+                </div>
+                <div class="swipe">
+                    <div>Desliza hacia arriba</div>
+                    <img src="./assets/img/GBU Flecha Arriba.svg" alt="">
+                </div>
               </div>
           </div>
   
