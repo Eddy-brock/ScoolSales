@@ -810,7 +810,7 @@ a {
 }
 .imgpie{
   background-image: url("../img/scool/PNG/Linea categorías-01.png");
-  background-position: right;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 9%;
