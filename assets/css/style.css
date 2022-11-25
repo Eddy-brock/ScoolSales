@@ -863,7 +863,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .competencias {
-    background-image: url("../img/scool/PNG/back-01.png");
+    background-image: url("../img/scool/back-01.png");
     background-position: bottom;
   }
   .competencias h1 {
