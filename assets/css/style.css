@@ -804,7 +804,7 @@ a {
   height: calc(100vh);
   font-family: "Raleway";
   background-image: url("../img/scool/back-01.png");
-  background-position: center;
+
   background-size: cover;
   text-align: center;
   color: white;
