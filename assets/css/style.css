@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Raleway";
   src: url("fonts/Raleway-BlackItalic.woff2") format("woff2"), url("fonts/Raleway-BlackItalic.woff") format("woff"), url("fonts/Raleway-BlackItalic.ttf") format("truetype");
@@ -264,6 +265,7 @@ a {
   border-bottom: 1px solid white;
   padding: 20px 0;
   color: white;
+
 }
 .menu .dropdown-content::before {
   content: "";
@@ -282,31 +284,39 @@ a {
 }
 .menu a {
   color: inherit;
+   text-decoration: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) 
+{
+  .imgProgress {
+    width: 30%;
+  }
+  .boxRight {
+    font-size: 15px;
+    padding: 1%;
+  }
+  .boxLeft {
+    display: none !important;
+  }
   .menu {
     display: none;
   }
 }
-
 .main-section {
-  height: calc(100vh - 60px);
-  background-image: url("../img/Inicio-Fondo-01.jpg");
+  height: calc(100vh);
+  background-image: url("../img/scool/PNG/Back-01.png");
   background-size: cover;
   background-position: center;
   color: white;
   font-family: "Raleway";
-  margin-top: 0px;
 }
 .main-section .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 7%;
 }
 .main-section .navbar img {
   width: auto;
-  height: 50px;
 }
 .main-section .navbar .nav-right {
   display: flex;
@@ -334,16 +344,7 @@ a {
   font-family: "Raleway";
   text-align: center;
 }
-.main-wellcome .profilepic {
-  background-image: url("../img/Inicio-Fondo-02.png");
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 6%;
-}
 .main-wellcome .profilepic img {
-  border-radius: 50%;
-  box-shadow: 3px 3px 16px black;
   height: 245px;
   width: auto;
 }
@@ -367,17 +368,17 @@ a {
   background-color: white;
   color: #000;
   border-radius: 50px;
-  width: 30%;
+  width: 100%;
   margin: auto;
-  padding: 15px 40px;
+  padding: 15px;
   display: flex;
 }
 .main-wellcome .buscador .search-icon {
-  width: 18px;
+  width: 12px;
   cursor: pointer;
 }
 .main-wellcome .buscador input {
-  font-size: 18px;
+  font-size: 12px;
   width: 100%;
   color: #000;
   border: none;
@@ -397,10 +398,10 @@ a {
 }
 @media screen and (max-width: 1500px) {
   .main-wellcome .profilepic {
-    padding-top: 4%;
+    padding-top: 1%;
   }
   .main-wellcome .profilepic img {
-    height: 150px;
+    height: 100px;
   }
   .main-wellcome h1 {
     font-size: 40px;
@@ -408,10 +409,10 @@ a {
 }
 @media screen and (max-width: 900px) {
   .main-wellcome {
-    margin: 0 0 15%;
+    margin: 5% 0 15%;
   }
   .main-wellcome .buscador {
-    width: 50%;
+    width: 90%;
   }
   .main-wellcome .swipe {
     display: block;
@@ -432,12 +433,13 @@ a {
     font-size: 38px;
   }
   .main-wellcome .profilepic img {
-    height: 125px;
+    height: 100px;
   }
   .main-wellcome .buscador {
     width: 90%;
   }
 }
+
 
 .bottom-bar {
   display: flex;
@@ -614,7 +616,7 @@ a {
 
 .video {
   font-family: "Raleway";
-  background-color: rgb( 99, 141, 233);
+  background-color: rgb( 5, 135, 193, 100)  ;
   background-size: cover;
   padding: 5%;
   color: #0E3487;
@@ -626,7 +628,7 @@ a {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 6%;
+  padding-top: 0%;
   object-fit: cover;
 
 
@@ -638,7 +640,7 @@ a {
   align-items: center;
 }
 .video-container picture, .video-container a {
-  flex-basis: 50%;
+  flex-basis: 70%;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
@@ -797,6 +799,7 @@ a {
     margin-bottom: 100px;
   }
 }
+
 .competencias {
   font-family: "Raleway";
   background-image: url("../img/scool/PNG/back-01.png");
@@ -805,7 +808,7 @@ a {
   text-align: center;
   color: white;
   margin-top: 0px;
-  padding-bottom: 10%;
+  padding-bottom: 0%;
 }
 .imgpie{
   background-image: url("../img/scool/PNG/Linea categorías-01.png");
@@ -836,7 +839,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 10%;
+  padding: 0 0%;
 }
 .competencias-buttons a {
   width: 22%;
@@ -883,6 +886,75 @@ a {
     padding-top: 20%;
   }
   .competencias-item {
+    padding: 20px 10px;
+  }
+}
+
+/*
+
+*/
+
+
+
+.competencia {
+  font-family: "Raleway";
+  background-color: rgb( 187, 86, 178, 100)  ;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  padding-bottom: 0%;
+}
+.imgpie{
+  background-image: url("../img/scool/PNG/Linea categorías-01.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 9%;
+  object-fit: cover;
+}
+
+.imgpie2{
+
+  max-width: 1800px;
+  max-height: 400px;
+  background-position: left;
+  
+ 
+  background-repeat: no-repeat;
+  padding-top: 1%;
+  object-fit: cover;
+}
+
+.competencia h1 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.competencia h3 {
+  margin-bottom: 5%;
+  font-size: 22px;
+  margin-top: 1em;
+  padding: 0 10%;
+  font-weight: normal;
+  font-family: "Myriad Pro";
+  color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 900px) {
+  .competencia {
+    background-image: url("../img/scool/PNG/back-01.png");
+    background-position: bottom;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .competencia {
+    padding-top: 20%;
+  }
+  .competencia-item {
     padding: 20px 10px;
   }
 }
@@ -1188,4 +1260,44 @@ a {
   top: 0;
 }
 
+
+/*# sourceMappingURL=style.css.map */
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boxRight {
+  background-color: #36ad56;
+  border-radius: 18px;
+  padding: 4%;
+  cursor: pointer;
+}
+
+.boxLeft {
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #000;
+}
+
+.boxVideos {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imgVideo {
+  width: 70px;
+}
 /*# sourceMappingURL=style.css.map */
