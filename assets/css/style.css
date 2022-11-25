@@ -802,14 +802,11 @@ a {
 
 .competencias {
   height: calc(100vh);
-  font-family: "Raleway";
-  background-image: url("../img/scool/back-01.png");
-  background-position: center;
+  background-image: url("../img/scool/PNG/Back-01.png");
   background-size: cover;
-  text-align: center;
+  background-position: center;
   color: white;
-  margin-top: 0px;
-  padding-bottom: 0%;
+  font-family: "Raleway";
 }
 .imgpie{
   background-image: url("../img/scool/PNG/Linea categorías-01.png");
