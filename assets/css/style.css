@@ -283,7 +283,18 @@ a {
 .menu a {
   color: inherit;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) 
+{
+  .imgProgress {
+    width: 30%;
+  }
+  .boxRight {
+    font-size: 15px;
+    padding: 1%;
+  }
+  .boxLeft {
+    display: none !important;
+  }
   .menu {
     display: none;
   }
@@ -332,8 +343,6 @@ a {
   text-align: center;
 }
 .main-wellcome .profilepic img {
-  border-radius: 50%;
-  box-shadow: 3px 3px 16px black;
   height: 245px;
   width: auto;
 }
@@ -422,7 +431,7 @@ a {
     font-size: 38px;
   }
   .main-wellcome .profilepic img {
-    height: 125px;
+    height: 100px;
   }
   .main-wellcome .buscador {
     width: 90%;
@@ -451,6 +460,12 @@ a {
   .bottom-bar {
     justify-content: flex-start;
     bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .boxLeft {
+    display: none !important;
   }
 }
 
@@ -1176,4 +1191,16 @@ a {
   flex-direction: column;
   background-color: white;
   color: #000;
+}
+
+.boxVideos {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imgVideo {
+  width: 70px;
 }
