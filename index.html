@@ -1,4 +1,6 @@
-<div>
+<html>
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +10,9 @@
   <link rel="stylesheet" href="./assets/css/jquery.pagepiling.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/academias.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
   <script src="./assets/js/academias.js" defer></script>
   <style>
       #ctl00_pnlBR {
@@ -17,11 +21,13 @@
   </style>
 </div>
 
+<body>
 <div>
   <script data-include-file="/content/grupobimbo/publications/10210/lxp/carousellepV2.js" src="./assets/js/carousellepV2.js"></script>
-  <div class="menu">
+   <div class="menu">
+    <div><a href="#">Inicio</a></div>
       <div class="dropdown">
-          <span>Contenido</span>
+          <span>Favoritos</span>
           <div class="dropdown-content">
               <div class="dropdown-item"><a href="#Main">Buscador</a></div>
               <div class="dropdown-item"><a href="#Banners">Banners</a></div>
@@ -33,9 +39,9 @@
               <div class="dropdown-item"><a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575" class="last">Contáctanos</a></div>
           </div>
       </div>
-      <div><a href="/ui/lms-learner-home/home?tab_page_id=-200300006">Mi perfil</a></div>
-      <div><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Expediente</a></div>
-      <div><a href="#Academias">Academias</a></div>
+      <div><a href="">Categorias</a></div>
+      <div><a href="">Historial</a></div>
+      <div><a href="#">GB University</a></div>
   </div>
   <div class="sideNav" id="SideNav">
       <div class="sideNav-close" onclick="closeNav()">❯</div>
@@ -71,7 +77,7 @@
           <div class="navbar">
               <div class="nav-left">
                 <br />
-                <img src="./assets/img/Logo academia-esc-01.png" alt="" style="width: 300px;">
+                <img src="./assets/img/scool/PNG/Logo academia-esc-01.png" alt="" style="width: 300px;">
               </div>
               <div class="nav-right">
                   <a class="nav-icon" style="visibility: hidden;"><img src="/content/grupobimbo/publications/10210/img/iconos/GB Reloj.svg" alt=""></a>
@@ -149,7 +155,7 @@
                     <div class="profilepic">
                         <div id="ProfileImageWrapper">
                             <div class="boxImg">
-                                <div><img src="./assets/img/Gotas-1-01.png" alt=""></div>
+                                <div><img src="./assets/img/scool/PNG/Gotas-1-01.png" alt=""></div>
                                 <div style="box-shadow: 3px 3px 16px black; border-radius: 50%;">
                                     <a id="ProfileImageLink" href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio&amp;tab_page_id=-20016001">
                                         <div class="ProfileImageContainer" id="Image2">
@@ -157,7 +163,7 @@
                                       </a>
                                     <img src="../img/cuadro.jpg" alt="">
                                 </div>
-                                <div><img src="./assets/img/Gotas-2-01.png" alt=""></div>
+                                <div><img src="./assets/img/scool/PNG/Gotas-2-01.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -175,7 +181,7 @@
                   <div class="col-lg align-middle" style="display: flex; align-items: center; justify-content: center;">
                     <div class="box">
                         <div>
-                            <img class="imgProgress" src="./assets/img/Progreso icon-01.png" alt="" width="50%">
+                            <img class="imgProgress" src="./assets/img/scool/PNG/Progreso icon-01.png" alt="" width="50%">
                         </div>
                         <div class="boxRight">
                             <b>Consultar</b>
@@ -187,36 +193,35 @@
                 </div>
                 <div class="swipe">
                     <div>Desliza hacia arriba</div>
-                    <img src="./assets/img/GBU Flecha Arriba.svg" alt="">
+                    <img src="./assets/img/scool/GBU Flecha Arriba.svg" alt="">
                 </div>
               </div>
           </div>
-  
-          <div class="bottom-bar">
-              <div>•&nbsp;#mimomentodeaprender&nbsp;</div>
-              <div>•&nbsp;#mytimetolearn&nbsp;</div>
-              <div>•&nbsp;#meumomentodeaprender&nbsp;</div>
-              <div>•&nbsp;#montempsd'apprendre&nbsp;</div>
-              <div>•&nbsp;#<span class="chinese" style="font-weight: bold;">我的时间来学习</span>&nbsp;•</div>
-          </div>
       </div>
-      <div class="widget-banners section" id="Banners">
+
+      <!-- SLIDERS BIMBO-->
+
+ <div class="video section imgfondo" id="Brain">
+  <h2 class="text-center " style="color: white ;">Nuevos Contenidos</h2>
+          <div class="video-container">
+              <picture>
+                 
           <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
               <!-- Indicators -->
-              <ol class="carousel-indicators">
+              <ol class="carousel-indicators rounded-pill">
                   <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"><br></li>
                   <li data-bs-target="#myCarousel" data-bs-slide-to="1"><br></li>
                   <li data-bs-target="#myCarousel" data-bs-slide-to="2"><br></li>
                   <li data-bs-target="#myCarousel" data-bs-slide-to="3"><br></li>
               </ol>
-  
+    
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
   
                   <div class="carousel-item">
                       <a href="https://brain-gbuniversity.com/">
                           <picture>
-                              <source media="(min-width: 600px)" srcset="./assets/img/Banner_esp.png">
+                              <source media="(min-width: 700px)" srcset="./assets/img/Banner_esp.png">
                               <img src="./assets/img/Banner_esp.png" alt="">
                           </picture>
                       </a>
@@ -225,7 +230,7 @@
                   <div class="carousel-item">
                       <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/2a897470-2991-4f95-9051-9ae29ff907ed_Competencias_Tecnicas__Academias_y_Escuelas_PDF.pdf">
                           <picture>
-                              <source media="(min-width: 600px)" srcset="./assets/img/banners/comp_tec_esp.png">
+                              <source media="(min-width: 700px)" srcset="./assets/img/comp_tec_esp.png">
                               <img src="./assets/img/comp_tec_esp.png" alt="">
                           </picture>
                       </a>
@@ -234,7 +239,7 @@
                   <div class="carousel-item">
                       <a href="/ui/lms-learning-details/app/video/b079fc5f-62a8-42d5-b6ad-0a89663c3054">
                           <picture>
-                              <source media="(min-width: 600px)" srcset="./assets/img/Banner_Centros_desk_esp.png">
+                              <source media="(min-width: 700px)" srcset="./assets/img/Banner_Centros_desk_esp.png">
                               <img src="./assets/img/Banner_Centros_app_esp.png" alt="">
                           </picture>
                       </a>
@@ -243,7 +248,7 @@
                   <div class="carousel-item active">
                       <a href=" https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=df303ca8-219b-433e-9946-d30e5195e056,233df03f-0030-44e8-940e-f9be7d20a9ec,6d212bf7-e65a-4630-bbc1-df1f09a329a2">
                           <picture>
-                              <source media="(min-width: 600px)" srcset="./assets/img/Banner_Excelencia_desk_esp.png">
+                              <source media="(min-width: 700px)" srcset="./assets/img/Banner_esp.png">
                               <img src="./assets/img/Banner_Excelencia_app_esp.png" alt="">
                           </picture>
                       </a>
@@ -251,239 +256,169 @@
               </div>
   
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <a class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
               </a>
-              <a class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+              <a class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                   <span class="carousel-control-next-icon"></span>
                   <span class="visually-hidden">Next</span>
               </a>
+
           </div>
-      </div>
-      <div class="video section" id="Brain">
-          <div class="video-container">
-              <picture>
-                  <video style="width: 100%; border: 5px solid #F1C26B; border-radius: 75px;" src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/10210/video/intro.mp4" poster="./assets/img/brain_cover.jpeg" controls="">
-              </video></picture>
+
+                 </picture>
               <div class="video-information">
-                  <div class="video-logo">
-                      <img src="./assets/img/Brain/LogoBrain-03.png" alt="">
-                  </div>
+                 
                   <div class="video-description">
                       <div class="video-body">
                           <div>
-                              <h2>Conoce más de las Competencias de Liderazgo</h2>
-                              <a href="/catalog/CustomPage.aspx?id=221000390" target="_blank">Ingresa a Brain</a>
+                              <h1><strong>Exhibiciones </strong> </h1>
+                              <p type="submit" href="#" class="badge rounded-pill bg">
+                              Eduardo Martin Ortega, Clave Tlahuac<br />
+                              nos comparte sus tips con onda</p><br />
+                              <!--<a href="/catalog/CustomPage.aspx?id=221000390" target="_blank">Ver</a>-->
+                              <button type="button" class="btn btn-danger rounded-pill"><i class="bi bi-play-circle"></i>  ver</button>
+                              <span type="submit" href="#" class="badge rounded-pill bg"><i class="bi bi-bookmark"></i> Favoritos</span>
+                              <span type="submit" href="#" class="badge rounded-pill bg"><i class="bi bi-info-circle"></i> Info</span>
                           </div>
                       </div>
                   </div>
               </div>
           </div>
       </div>
-      <div class="soon section" id="Cursos">
-          <h1>Mis cursos</h1>
-          <h3>Accede a los cursos que te han sido asignados</h3>
+    
+      <!-- SECTION CURSOS-->
 
-          <div class="carouselContainer" id="myLO2">
-              </div>
-              <script>
-                  getLXPWidget('Continue','myLO2');
-              </script>
-      </div>
       <div class="competencias section" id="Competencias">
-          <h1>NUESTROS MODELOS DE COMPETENCIAS</h1>
-          <h3>Aprende sobre los diferentes Modelos de Competencias</h3>
+          <div class="d-flex justify-content-center">
+          <h1 class="text-center">Nuestras Categorias</h1>
+
+          <h3>Da clic en la Academia que te interese y accede a sus Escuelas.</h3>
+</div>
           <div class="competencias-buttons">
-              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000379"><div class="competencias-item liderazgo">Ir a<br><span style="font-weight: 900; font-size: 24px;">Competencias de<br><span style="text-transform: capitalize; font-size: 34px;">Liderazgo</span></span></div></a>
-              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000380"><div class="competencias-item humanas">Ir a<br><span style="font-weight: 900; font-size: 24px;">Competencias<br><span style="text-transform: capitalize; font-size: 34px;">Humanas</span></span></div></a>
-              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000381"><div class="competencias-item tecnicas">Ir a<br><span style="font-weight: 900; font-size: 24px;">Competencias<br><span style="text-transform: capitalize; font-size: 34px;">Técnicas</span></span></div></a>
+              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000379"><img src="./assets/img/scool/Icon growth.svg" class="img-fluid mx-7" style="width: 75px; height: 80px;"><div class="competencias-item liderazgo mb-4"><strong>Growth based</strong><br><span style="font-weight: 900; font-size: 20px;">On our Go to Market<br><span style="text-transform: capitalize; font-size: 20px;">Transformation</span></span></div></a>
+
+              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000380"><img src="./assets/img/scool/Icon retooling.svg" class="img-fluid mx-7" style="width: 75px; height: 80px;"><div class="competencias-item humanas mb-4"><strong>Growth based</strong><br><span style="font-weight: 900; font-size: 20px;">On our Go to Market<br><span style="text-transform: capitalize; font-size: 20px;">Transformation</span></span></div></a>
+
+              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000381"><img src="./assets/img/scool/Icon RGM.svg" class="img-fluid mx-7" style="width: 75px; height: 80px;"><div class="competencias-item tecnicas mb-4"><strong>Growth based</strong><br><span style="font-weight: 900; font-size: 20px;">On our Go to Market<br><span style="text-transform: capitalize; font-size: 20px;">Transformation</span></span></div></a>
+
+              <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000379"><img src="./assets/img/scool/Icon sales.svg" class="img-fluid mx-7" style="width: 75px; height: 80px;"><div class="competencias-item liderazgo mb-4"><strong>Growth based</strong><br><span style="font-weight: 900; font-size: 20px;">On our Go to Market<br><span style="text-transform: capitalize; font-size: 20px;">Transformation</span></span></div></a>
+          </div>
+          <div class="imgpie">
           </div>
       </div>
-      <div class="academias section" id="Academias">
-        <div class="academias_header">
-            <h1>Academias <br>Grupo Bimbo</h1>
-            <h3>Da clic en la Academia que te interese y accede a sus Escuelas.</h3>
-        </div>
-        <div class="academias_sections">
-                <div class="arrowL"></div>
-                <div class="arrowR"></div>
-            <div class="academia">academia <br><span>grupo bimbo</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="./assets/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="./assets/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206303085_1889540086_PDF.pdf">Escuela Asuntos Corporativos</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206232505_1994294119_PDF.pdf">Escuela Comunicación</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206295617_1538944663_PDF.pdf">Escuela Sustentabilidad</a>
-                    </div>
-                    <div class="down-drop"><img src="./assets/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="./assets/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia <br> <span>personas</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="./assets/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="./assets/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206312488_1750253177_PDF.pdf">Escuela Atracción de Talento</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206331395_929639302_PDF.pdf">Escuela Compensación</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206315552_437367467_PDF.pdf">Escuela Relaciones Laborales</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206322568_1384860555_PDF.pdf">Escuela Seguridad y Bienestar</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206305754_1828412961_PDF.pdf">Escuela Talento y Desarrollo</a>
 
-                    </div>
-                    <div class="down-drop"><img src="./assets/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="./assets/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia de<br><span>oficios gb</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="./assets/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="./assets/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="/catalog/CustomPage.aspx?id=221000421">Panificación</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206395210_527038134_PDF.pdf">Escuela Despacho</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206363891_1090012037_PDF.pdf">Escuela Ingeniería</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206371177_166755509_PDF.pdf">Escuela Logística</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206385126_655816418_PDF.pdf">Escuela Mantenimiento</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206355827_185532720_PDF.pdf">Escuela Manufactura</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206402809_1822230706_PDF.pdf">Escuela Vehículos</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206402809_1822230706_PDF.pdf">Escuela Compras</a>
-                    </div>
-                    <div class="down-drop"><img src="./assets/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="./assets/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia <br><span>administración y finanzas</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="./assets/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="./assets/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206424162_1095765437_PDF.pdf">Escuela Bienes Raíces</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206405594_1293411163_PDF.pdf">Escuela Contraloría</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206415684_1616760744_PDF.pdf">Escuela Jurídico</a>
-                        <a href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/GBU-prox.png">Escuela Planeación Financiera</a>
-                    </div>
-                    <div class="down-drop"><img src="./assets/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="./assets/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia <br><span>transformación</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206475967_1966619065_PDF.pdf">Escuela Gestión Corporativa</a>
-                        <a href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/GBU-prox.png">Escuela Tecnología de negocios</a>
-                    </div>
-                    <div class="down-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="/content/grupobimbo/publications/10218/toupload/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia <br><span>auditoría</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022206510648_1738375156_PDF.pdf">Escuela Control Interno</a>
-                        <a href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/GBU-prox.png">Escuela Auditoría Interna</a>
-                    </div>
-                    <div class="down-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="/content/grupobimbo/publications/10218/toupload/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-            <div class="academia">academia <br><span>comercial</span>
-                <div class="drop-content hide">
-                    <div class="close-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-close.png"></div>
-                    <div class="up-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-up-disabled.png"></div>
-                    <div class="drop-links">
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022207121706_1248860642_PDF.pdf">Escuela Mercadotecnia</a>
-                        <a href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/394654_2021022207131571_899130599_PDF.pdf">Escuela Ventas</a>
-                    </div>
-                    <div class="down-drop"><img src="/content/grupobimbo/publications/10218/toupload/img/academia-arrow-down-enabled.png"></div>
-                </div>
-                <div class="button_escuelas">ver escuelas <br>
-                    <img src="./assets/img/Academia-arrow.png" alt="">
-                </div>
-            </div>
-        </div>
-        <picture>
-            <img src="./assets/img/Academias-trazo.png" alt="Trazo">
-        </picture>
-        <sc ript="" type="application/js">
+  <div class="competencia section" id="">
+          <h1>Favoritos</h1>
+          <h3>Aqui encontrarás los cursos que guardaste para más tarde.</h3>
+
+          
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<div class="d-flex justify-content-center">
+  <div class="col-lg-7">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./assets/img/Banner_esp.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Card title</h5>
+        <p class="card-text" style="color: darkorange;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <!-- end item-->
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+   <div class="d-flex justify-content-start">
+    <img src="./assets/img/scool/PNG/Mujer compu-01.png" class="img-fluid" style="height:190px; width:1200px;" alt="...">
+                
+              </div>       
 
         
-    </sc></div>
-      <div class="liderazgo section" id="Liderazgo">
-          <div class="section__content">
-              <img class="section__logo" src="./assets/img/logo-liderazgo.svg" alt="Liderazgo a conciencia">
-              <div class="section__header">
-                  <h2>BIENVENIDO AL SITIO DE LIDERAZGO A CONSCIENCIA</h2>
-                  <h3>HAZ CLIC EN EL NIVEL QUE TE CORRESPONDE</h3>
-              </div>
-              <div class="wrapper__buttons">
-                  <div class="section__buttons">
-                      <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000387" class="button_blue">
-                          <span>Ir a</span>
-                          <span>Directivo <br> Primer Ejecutivo</span>
-                      </a>
-                      <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000388" class="button_red">
-                          <span>Ir a</span>
-                          <span>Segundo <br> Ejecutivo</span>
-                      </a>
-                      <a href="https://grupobimbo-pilot.csod.com/catalog/CustomPage.aspx?id=221000389" class="button_gray">
-                          <span>Ir a</span>
-                          <span>Supervisor <br> Administrativo</span>
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="externos section pp-scrollable" id="Portales">
-          <div class="externos-mains">
-              <h1>Portales externos</h1>
-              <h3>Accede a los mejores contenidos de capacitación desde los siguientes enlaces</h3>
-              <div class="mosaico">
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=2fecb0ff-d70a-440e-8634-c7f97bbfc8a7" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-TED.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=342e251b-88dd-4867-b69a-037ea8b7b3cd" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-Coursera.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=280f733e-bff5-4c66-853f-1a4637e671f1" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-edX.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=6d212bf7-e65a-4630-bbc1-df1f09a329a2" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-Singularity.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=94386960-18f8-4565-9f6a-97678f4da37a" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-Microsoft.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=d2c9be13-2b1b-4f39-9734-a3cfc4ab58d7" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-KhanAcademy.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=df303ca8-219b-433e-9946-d30e5195e056" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-ie.png" alt=""></a>
-                  <a href="https://grupobimbo-pilot.csod.com/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=233df03f-0030-44e8-940e-f9be7d20a9ec" target="_blank"><img src="/content/grupobimbo/publications/10210/img/Banner-McKinsey.png" alt=""></a>
-              </div>
-          </div>
-          <div class="mobile-contacto">
-              <a href="#Main">Volver al inicio</a>
-              <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">CONTÁCTANOS</a>
-          </div>
-          <footer>
-              <div class="footer-banner">
-                  <img class="footer-logo" src="./assets/img/GB University Logo.svg" alt="">
-                  <div class="footer-hashtag"><span style="color: #A7E2F7;">#</span><span style="color: #008BC2;">mi</span>momento<span style="color: #008BC2;">de</span>aprender</div>
-                  <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575"><div class="footer-contacto">Contáctanos</div></a>
-              </div>
-              <div class="copy">GB University, 2020
-                  <a href="#Main" class="arrow">
-                      <img src="/content/grupobimbo/publications/10210/img/iconos/GBU Flecha Arriba.svg" alt="">
-                  </a>
-              </div>
-          </footer>
-      </div>
+     </div>
   </div>
   <script src="./assets/js/jquery.min.js"></script>
   <script src="./assets/js/app.js"></script>
@@ -493,3 +428,5 @@
 
 
 </div>
+</body>
+</html>

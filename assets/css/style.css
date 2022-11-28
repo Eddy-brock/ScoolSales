@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Raleway";
   src: url("fonts/Raleway-BlackItalic.woff2") format("woff2"), url("fonts/Raleway-BlackItalic.woff") format("woff"), url("fonts/Raleway-BlackItalic.ttf") format("truetype");
@@ -264,6 +265,7 @@ a {
   border-bottom: 1px solid white;
   padding: 20px 0;
   color: white;
+
 }
 .menu .dropdown-content::before {
   content: "";
@@ -282,6 +284,7 @@ a {
 }
 .menu a {
   color: inherit;
+   text-decoration: none;
 }
 @media screen and (max-width: 900px) 
 {
@@ -299,10 +302,9 @@ a {
     display: none;
   }
 }
-
 .main-section {
   height: calc(100vh);
-  background-image: url("../img/Back-01.png");
+  background-image: url("../img/scool/PNG/Back-01.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -437,6 +439,7 @@ a {
     width: 90%;
   }
 }
+
 
 .bottom-bar {
   display: flex;
@@ -590,9 +593,11 @@ a {
   padding: 5%;
   width: 76%;
   margin: auto;
+  margin-left: 32px;
 }
 .widget-banners .carousel-inner {
-  border: 5px solid white;
+  border: 3px solid white;
+  width: 70%;
 }
 @media screen and (max-width: 900px) {
   .widget-banners .carousel {
@@ -602,6 +607,7 @@ a {
 @media screen and (max-width: 600px) {
   .widget-banners .carousel-indicators {
     bottom: -5%;
+    
   }
 }
 .widget-banners .carousel-item img {
@@ -616,22 +622,35 @@ a {
 
 .video {
   font-family: "Raleway";
-  background-image: url("../img/FondoBrain-01.png");
+  background-color: rgb( 5, 135, 193, 100)  ;
   background-size: cover;
   padding: 5%;
-  color: #4795f7;
-  margin-top: -15px;
+  color: #0E3487;
+  margin-top: 0px;
 }
+  
+  .imgfondo{
+  background-image: url("../img/Linea contenidos-01.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 0%;
+  object-fit: cover;
+
+
+}
+
+
 .video-container {
   display: flex;
   align-items: center;
 }
 .video-container picture, .video-container a {
-  flex-basis: 50%;
+  flex-basis: 70%;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
-  border: 5px solid #F1C26B;
+  border: 5px solid #FFFFFF;
   border-radius: 75px;
 }
 .video-information {
@@ -644,10 +663,11 @@ a {
 .video-description h2 {
   font-size: 32px;
   margin-bottom: 1em;
+
 }
 .video-description a {
   color: white;
-  background: linear-gradient(to right, #80C60D, #53A21D);
+  background: linear-gradient(to right, black, red);
   padding: 10px 20px;
   display: inline-block;
   font-size: 18px;
@@ -785,15 +805,24 @@ a {
     margin-bottom: 100px;
   }
 }
+
 .competencias {
-  font-family: "Raleway";
-  background-image: url("../img/FondoCompetencias-01.png");
-  background-position: center;
+  height: calc(100vh);
+  background-image: url("../img/scool/Back-01.png");
   background-size: cover;
-  text-align: center;
+  background-position: center;
   color: white;
-  margin-top: -15px;
-  padding-bottom: 10%;
+  font-family: "Raleway";
+}
+.imgpie{
+  background-image: url("../img/scool/PNG/Linea categorías-01.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 9%;
+  object-fit: cover;
+
+
 }
 .competencias h1 {
   font-weight: normal;
@@ -808,16 +837,17 @@ a {
   padding: 0 10%;
   font-weight: normal;
   font-family: "Myriad Pro";
-  color: inherit;
+  color: lightgoldenrodyellow;
 }
 .competencias-buttons {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 10%;
+  padding: 0 0%;
 }
 .competencias-buttons a {
-  width: 25%;
+  width: 22%;
+  text-decoration: none; /*text decoration*/
 }
 .competencias-item {
   border-radius: 10px;
@@ -839,7 +869,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .competencias {
-    background-image: url("../img/FondoCompetencias-01M.png");
+    background-image: url("../img/scool/back-01.png");
     background-position: bottom;
   }
   .competencias h1 {
@@ -860,6 +890,75 @@ a {
     padding-top: 20%;
   }
   .competencias-item {
+    padding: 20px 10px;
+  }
+}
+
+/*
+
+*/
+
+
+
+.competencia {
+  font-family: "Raleway";
+  background-color: rgb( 187, 86, 178, 100)  ;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  padding-bottom: 0%;
+}
+.imgpie{
+  background-image: url("../img/scool/PNG/Linea categorías-01.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 9%;
+  object-fit: cover;
+}
+
+.imgpie2{
+
+  max-width: 1800px;
+  max-height: 400px;
+  background-position: left;
+  
+ 
+  background-repeat: no-repeat;
+  padding-top: 1%;
+  object-fit: cover;
+}
+
+.competencia h1 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.competencia h3 {
+  margin-bottom: 5%;
+  font-size: 22px;
+  margin-top: 1em;
+  padding: 0 10%;
+  font-weight: normal;
+  font-family: "Myriad Pro";
+  color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 900px) {
+  .competencia {
+    background-image: url("../img/scool/PNG/back-01.png");
+    background-position: bottom;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .competencia {
+    padding-top: 20%;
+  }
+  .competencia-item {
     padding: 20px 10px;
   }
 }
@@ -1165,6 +1264,7 @@ a {
   top: 0;
 }
 
+
 /*# sourceMappingURL=style.css.map */
 
 .box {
@@ -1204,3 +1304,4 @@ a {
 .imgVideo {
   width: 70px;
 }
+/*# sourceMappingURL=style.css.map */
