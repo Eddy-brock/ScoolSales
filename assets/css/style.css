@@ -582,13 +582,7 @@ a {
   font-family: "Hiragino Sans GB";
 }
 
-.widget-banners {
-  background-image: url("../img/CDTFondo-01.png");
-  background-color: #1073D1;
-  background-size: cover;
-  background-position: center;
-  margin-top: -15px;
-}
+
 .widget-banners .carousel {
   padding: 5%;
   width: 76%;
@@ -607,7 +601,6 @@ a {
 @media screen and (max-width: 600px) {
   .widget-banners .carousel-indicators {
     bottom: -5%;
-    
   }
 }
 .widget-banners .carousel-item img {
@@ -620,23 +613,24 @@ a {
   }
 }
 
+
+
 .video {
   font-family: "Raleway";
-  background-color: rgb( 5, 135, 193, 100)  ;
-  background-size: cover;
-  padding: 5%;
+  /*background-color:rgb( 83, 144, 171, 100);
+  background-size: cover;*/
+  padding: 10%;
   color: #0E3487;
   margin-top: 0px;
-}
-  
+}  
   .imgfondo{
+
   background-image: url("../img/Linea contenidos-01.png");
-  background-position: right;
+  background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 0%;
+  padding-top: -2%;
   object-fit: cover;
-
 
 }
 
@@ -644,14 +638,16 @@ a {
 .video-container {
   display: flex;
   align-items: center;
+   margin-left: 45px;
 }
 .video-container picture, .video-container a {
-  flex-basis: 70%;
+  flex-basis: 80%;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
-  border: 5px solid #FFFFFF;
-  border-radius: 75px;
+  height: 325px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50px;
 }
 .video-information {
   display: flex;
@@ -752,6 +748,7 @@ a {
   }
 }
 
+
 .soon {
   font-family: "Raleway";
   background-image: url("../img/FondoCursos-01.png");
@@ -807,15 +804,17 @@ a {
 }
 
 .competencias {
-  height: calc(100vh);
-  background-image: url("../img/scool/Back-01.png");
-  background-size: cover;
+ font-family: "Raleway";
+  background-image: url("../img/back-01.png");
   background-position: center;
+  background-size: cover;
+  text-align: center;
   color: white;
-  font-family: "Raleway";
+  margin-top: 0px;
+  padding-bottom: 12%;
 }
 .imgpie{
-  background-image: url("../img/scool/PNG/Linea categorías-01.png");
+  background-image: url("../img/Linea categorías-01.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -924,7 +923,7 @@ a {
   max-width: 1800px;
   max-height: 400px;
   background-position: left;
-  
+  background-size: cover;
  
   background-repeat: no-repeat;
   padding-top: 1%;
