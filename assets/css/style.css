@@ -805,7 +805,7 @@ a {
 
 .competencias {
  font-family: "Raleway";
-  background-image: url("../img/scool/back-01.png");
+  background-image: url("../img/back-01.png");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -923,7 +923,7 @@ a {
   max-width: 1800px;
   max-height: 400px;
   background-position: left;
-  background-size: cover;
+  background-size: contain;
  
   background-repeat: no-repeat;
   padding-top: 0%;
@@ -955,7 +955,7 @@ a {
 }
 @media screen and (max-width: 600px) {
   .competencia {
-    padding-top: 20%;
+    padding-top: 0%;
   }
   .competencia-item {
     padding: 20px 10px;
