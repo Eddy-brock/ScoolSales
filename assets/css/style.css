@@ -805,7 +805,7 @@ a {
 
 .competencias {
  font-family: "Raleway";
-  background-image: url("../img/scool/back-01.png");
+  background-image: url("../img/scool/Back-01.png");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -868,7 +868,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .competencias {
-    background-image: url("../img/back-01.png");
+    background-image: url("../img/Back-01.png");
     background-position: bottom;
   }
   .competencias h1 {
@@ -914,9 +914,9 @@ a {
 .imgpie2{
 
   max-width: 1800px;
-  max-height: 400px;
+  max-height: 355px;
   background-position: left;
-  background-size: cover;
+  background-size: contain;
  
   background-repeat: no-repeat;
   
