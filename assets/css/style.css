@@ -805,7 +805,7 @@ a {
 
 .competencias {
  font-family: "Raleway";
-  background-image: url("../img/back-01.png");
+  background-image: url("../img/scool/back-01.png");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -940,7 +940,7 @@ a {
   margin-bottom: 5%;
   font-size: 22px;
   margin-top: 0em;
-  padding: 0 10%;
+  padding: 0%;
   font-weight: normal;
   font-family: "Myriad Pro";
   color: lightgoldenrodyellow;
@@ -958,7 +958,7 @@ a {
     padding-top: 0%;
   }
   .competencia-item {
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
 }
 
