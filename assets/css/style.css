@@ -638,10 +638,10 @@ a {
 .video-container {
   display: flex;
   align-items: center;
-   margin-left: 45px;
+   margin-left: 40px;
 }
 .video-container picture, .video-container a {
-  flex-basis: 80%;
+  flex-basis: 100%;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
@@ -811,14 +811,14 @@ a {
   text-align: center;
   color: white;
   margin-top: 0px;
-  padding-bottom: 12%;
+  padding-bottom: 0%;
 }
 .imgpie{
   background-image: url("../img/Linea categorías-01.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 9%;
+  padding-top: 3%;
   object-fit: cover;
 
 
@@ -861,7 +861,7 @@ a {
   background-color: #ff0000;
 }
 .competencias .humanas {
-  background-color: #51978B;
+  background-color: #4FADD4;
 }
 .competencias .tecnicas {
   background-color: #D79C3D;
@@ -918,12 +918,12 @@ a {
 
   max-width: 1800px;
   max-height: 355px;
-  background-position: left;
-  background-size: contain;
- 
+  background-position: center;
+  background-size: cover;
+ background-attachment: fixed;
   background-repeat: no-repeat;
   
-  object-fit: cover;
+  object-fit: 100%;
 }
 
 .competencia h1 {
