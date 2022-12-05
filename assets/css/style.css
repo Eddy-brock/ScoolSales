@@ -925,7 +925,7 @@ a {
   background-size: cover;
  background-attachment: fixed;
   background-repeat: no-repeat;
-  
+  position: relative;
   object-fit: 100%;
 }
 
