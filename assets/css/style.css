@@ -343,6 +343,9 @@ a {
 .main-wellcome {
   font-family: "Raleway";
   text-align: center;
+ 
+  
+
 }
 .main-wellcome .profilepic img {
   height: 245px;
@@ -638,10 +641,10 @@ a {
 .video-container {
   display: flex;
   align-items: center;
-   margin-left: 40px;
+   margin-left: 0px;
 }
 .video-container picture, .video-container a {
-  flex-basis: 100%;
+  flex-basis: 250%;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
