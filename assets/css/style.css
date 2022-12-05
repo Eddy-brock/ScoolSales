@@ -858,10 +858,13 @@ a {
   line-height: 1;
 }
 .competencias .liderazgo {
-  background-color: #E84F3C;
+  background-color: #ff0000;
 }
 .competencias .humanas {
   background-color: #51978B;
+}
+.competencias .tecnicas {
+  background-color: #D79C3D;
 }
 .competencias .tecnicas {
   background-color: #D79C3D;
@@ -956,7 +959,11 @@ a {
 }
 
 .liderazgo {
-  background: linear-gradient(0deg, #B9BBBD -0.01%, #BEC0C2 2.44%, #CFD0D2 13.49%, #DADCDD 27.18%, #E1E2E3 46.47%, #E3E4E5 100%);
+  background: linear-gradient(0deg, #d95e6e -0.01%, #d95e6e 2.44%, #d95e6e 13.49%, #d95e6e 27.18%, #d95e6e 46.47%, #d95e6e 100%);
+  /* Landscape */
+}
+.liderazgo2 {
+  background: linear-gradient(0deg, #d76039 -0.01%, #d76039 2.44%, #d76039 13.49%, #d76039 27.18%, #d76039 46.47%, #d76039 100%);
   /* Landscape */
 }
 .liderazgo .section__content {
@@ -1283,6 +1290,7 @@ a {
   flex-direction: column;
   background-color: white;
   color: #000;
+  padding: 10px;
 }
 
 .boxVideos {
@@ -1297,3 +1305,7 @@ a {
   width: 70px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.gotas {
+  width: 100px;
+}
