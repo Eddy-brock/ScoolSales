@@ -622,27 +622,35 @@ a {
   font-family: "Raleway";
   /*background-color:rgb( 83, 144, 171, 100);
   background-size: cover;*/
-  padding: 10%;
+  padding: 9%;
   color: #0E3487;
-  margin-top: 0px;
+  
+ 
+
   
 }  
   .imgfondo{
   background-image: url("../img/Linea contenidos-01.png");
-  background-position: left;
-  background-size: contain;
+  
+  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: -2%;
-  object-fit: cover;
- 
 
+  object-fit: cover;
+  position: fixed;
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  margin-left: -140px;
+margin-top: 4%;
+ 
 }
 
 
 .video-container {
   display: flex;
   align-items: center;
-   margin-left: 0px;
+   
+
 }
 .video-container picture, .video-container a {
   flex-basis: 250%;
@@ -662,13 +670,13 @@ a {
 }
 .video-description h2 {
   font-size: 32px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 
 }
 .video-description a {
   color: white;
   background: linear-gradient(to right, black, red);
-  padding: 10px 20px;
+  padding: 20px 20px;
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
@@ -893,10 +901,10 @@ a {
 }
 @media screen and (max-width: 600px) {
   .competencias {
-    padding-top: 20%;
+    padding-top: 0%;
   }
   .competencias-item {
-    padding: 20px 10px;
+    padding: 0px 10px;
   }
 }
 
