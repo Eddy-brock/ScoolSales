@@ -632,7 +632,7 @@ a {
   .imgfondo{
   background-image: url("../img/Linea contenidos-01.png");
   
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 
   object-fit: cover;
@@ -640,8 +640,8 @@ a {
   height: 420px;
   width: 100%;
   background-position: center;
-  margin-left: -150px;
-  margin-top: 3.5%;
+  margin-left: -175px;
+  margin-top: 4%;
 
  
 }
@@ -686,7 +686,7 @@ a {
 .video-description p {
   font-style: italic;
   font-size: 14px;
-  margin: 1em 0;
+  margin: 0em 0;
 }
 .video-body {
   display: flex;
@@ -724,6 +724,10 @@ a {
   .video-body .qr {
     display: none;
   }
+  .imgfondo{
+    width: 50%;
+
+  }
 }
 @media screen and (max-width: 900px) {
   .video {
@@ -746,6 +750,7 @@ a {
   .video-logo img {
     height: 100px;
   }
+
 }
 @media screen and (max-width: 600px) {
   .video {
@@ -846,6 +851,7 @@ a {
   letter-spacing: 3px;
   font-size: 24px;
   text-transform: uppercase;
+  padding: 1%;
 }
 .competencias h3 {
   margin-bottom: 4%;
@@ -958,9 +964,10 @@ a {
   letter-spacing: 3px;
   font-size: 24px;
   text-transform: uppercase;
+  padding: 1%;
 }
 .competencia h3 {
-  margin-bottom: 2%;
+  margin-bottom: 6%;
   font-size: 22px;
   margin-top: 0em;
   padding: 0%;
@@ -1338,7 +1345,7 @@ a {
 }
 
 .imgVideo {
-  width: 70px;
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */
 
