@@ -677,6 +677,14 @@ a {
   padding: 1%;
 
 }
+.video-body h1 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 1%;
+}
+
 .video-description a {
   color: white;
   background: linear-gradient(to right, black, red);
