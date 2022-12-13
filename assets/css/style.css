@@ -1348,6 +1348,7 @@ a {
   background-color: white;
   color: #000;
   padding: 4px;
+  flex: 100%;
 }
 
 .boxVideos {
