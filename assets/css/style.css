@@ -442,6 +442,7 @@ a {
   .main-wellcome .buscador {
     width: 90%;
   }
+
 }
 
 
@@ -972,6 +973,23 @@ a {
   position: fixed;
   object-fit: 100%;
   margin-top: -4%;
+}
+
+.imgfondo2{
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Mujer compu-01.png");
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  position: fixed;
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  margin-left: -175px;
+  margin-top: 4%;
+
+ 
 }
 
 .competencia h1 {
