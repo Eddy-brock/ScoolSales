@@ -399,6 +399,7 @@ a {
   width: auto;
   margin-top: 10px;
 }
+/*
 @media screen and (max-width: 1500px) {
   .main-wellcome .profilepic {
     padding-top: 1%;
@@ -409,7 +410,7 @@ a {
   .main-wellcome h1 {
     font-size: 40px;
   }
-}
+}*/
 @media screen and (max-width: 900px) {
   .main-wellcome {
     margin: 5% 0 15%;
