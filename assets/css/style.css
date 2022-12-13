@@ -399,7 +399,7 @@ a {
   width: auto;
   margin-top: 10px;
 }
-/*
+
 @media screen and (max-width: 1500px) {
   .main-wellcome .profilepic {
     padding-top: 1%;
@@ -410,7 +410,7 @@ a {
   .main-wellcome h1 {
     font-size: 40px;
   }
-}*/
+}
 @media screen and (max-width: 900px) {
   .main-wellcome {
     margin: 5% 0 15%;
@@ -684,7 +684,7 @@ a {
   font-size: 24px;
   text-transform: uppercase;
   padding: 0%;
-  color: white;
+  
 }
 
 .video-description a {
@@ -1348,7 +1348,7 @@ a {
   background-color: white;
   color: #000;
   padding: 4px;
-  flex: 100%;
+
 }
 
 .boxVideos {
