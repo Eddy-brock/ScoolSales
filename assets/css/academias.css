@@ -160,11 +160,11 @@
   }
   .academias .academias_sections .arrowL {
     left: 0;
-    background-image: url("../img/iconos/flecha-izquierda.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/iconos/flecha-izquierda.svg");
   }
   .academias .academias_sections .arrowR {
     right: 0;
-    background-image: url("../img/iconos/flecha-derecha.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/iconos/flecha-derecha.svg");
   }
   .academias .academias_sections .academia {
     min-width: 100%;

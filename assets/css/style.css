@@ -304,7 +304,7 @@ a {
 }
 .main-section {
   height: calc(100vh);
-  background-image: url("../img/scool/PNG/Back-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Back-01.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -612,7 +612,7 @@ a {
 }
 @media screen and (max-width: 600px) {
   .widget-banners {
-    background-image: url("../img/FondoBanners-01M.png");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/FondoBanners-01M.png");
   }
 }
 
@@ -630,7 +630,7 @@ a {
   
 }  
   .imgfondo{
-  background-image: url("../img/Linea contenidos-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Linea contenidos-01.png");
   
   background-size: contain;
   background-repeat: no-repeat;
@@ -731,7 +731,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .video {
-    background-image: url("../img/FondoBrain-01M.png");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/FondoBrain-01M.png");
     background-position: top;
   }
   .video-container {
@@ -774,7 +774,7 @@ a {
 
 .soon {
   font-family: "Raleway";
-  background-image: url("../img/FondoCursos-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/FondoCursos-01.png");
   background-color: #1073D1;
   background-size: cover;
   text-align: center;
@@ -803,7 +803,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .soon {
-    background-image: url("../img/BannersCursos-01M.png");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/BannersCursos-01M.png");
     background-position: bottom;
   }
   .soon h1 {
@@ -828,7 +828,7 @@ a {
 
 .competencias {
  font-family: "Raleway";
-  background-image: url("../img/scool/Back-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/scool/Back-01.png");
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -837,7 +837,7 @@ a {
   padding-bottom: 0%;
 }
 .imgpie{
-  background-image: url("../img/Linea categorías-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Linea categorías-01.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -903,7 +903,7 @@ a {
 }
 @media screen and (max-width: 900px) {
   .competencias {
-    background-image: url("../img/Back-01.png");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Back-01.png");
     background-position: bottom;
   }
   .competencias h1 {
@@ -978,7 +978,7 @@ a {
 
 @media screen and (max-width: 900px) {
   .competencia {
-    background-image: url("../img/scool/PNG/back-01.png");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/back-01.png");
     background-position: bottom;
   }
   
@@ -1042,7 +1042,7 @@ a {
 }
 .liderazgo .wrapper__buttons {
   width: 100%;
-  background-image: url("../img/Girnalda01.svg");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Girnalda01.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1101,7 +1101,7 @@ a {
     font-size: 2.3vw;
   }
   .liderazgo .wrapper__buttons {
-    background-image: url("../img/Girnalda002.svg"), url("../img/Girnalda003.svg"), url("../img/Girnalda004.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Girnalda002.svg"), url("https://eddy-brock.github.io/ScoolSales/assets/img/Girnalda003.svg"), url("https://eddy-brock.github.io/ScoolSales/assets/img/Girnalda004.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top, center, bottom;
@@ -1131,7 +1131,7 @@ a {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
   .liderazgo .wrapper__buttons {
     width: 100%;
-    background-image: url("../img/Girnalda01.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Girnalda01.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1213,7 +1213,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("../img/BannerExternos-01.png");
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/BannerExternos-01.png");
   background-size: cover;
   background-position: center;
   text-transform: uppercase;
@@ -1351,4 +1351,8 @@ a {
 
 .gotas {
   width: 100px;
+}
+
+.competencia {
+  background-image: url('');
 }

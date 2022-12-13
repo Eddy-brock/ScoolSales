@@ -137,11 +137,11 @@
     } ]
   } */
   .carousel-control-prev-icon {
-    background-image: url("../img/iconos/flecha-izquierda.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/iconos/flecha-izquierda.svg");
   }
   
   .carousel-control-next-icon {
-    background-image: url("../img/iconos/flecha-derecha.svg");
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/iconos/flecha-derecha.svg");
   }
   
   .carousel-indicators {
