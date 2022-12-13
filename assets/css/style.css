@@ -715,6 +715,7 @@ a {
   margin-bottom: 10px;
   width: 75px;
 }
+/*
 @media screen and (max-width: 1920px) {
   .video-description {
     margin-left: 32px;
@@ -740,7 +741,7 @@ a {
     width: 50%;
 
   }
-}
+}*/
 @media screen and (max-width: 900px) {
   .video {
     background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/FondoBrain-01M.png");
