@@ -973,8 +973,8 @@ a {
  
   background-repeat: no-repeat;
   position: fixed;
-  object-fit: cover;
-  margin-top: -28%;
+  object-fit: 100%;
+  margin-top: -18%;
 }
 
 .imgfondo2{
