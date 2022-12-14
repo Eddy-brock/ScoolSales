@@ -968,7 +968,7 @@ a {
 
   max-width: 1800px;
   max-height: 455px;
-
+  background-position: left;
   background-size: contain;
 
   background-repeat: no-repeat;
