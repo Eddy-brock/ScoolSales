@@ -966,16 +966,15 @@ a {
 
 .imgpie2{
 
-background-size: contain;
+  max-width: 1800px;
+  max-height: 455px;
+  background-position: left;
+  background-size: contain;
+ 
   background-repeat: no-repeat;
-
-  object-fit: cover;
   position: fixed;
-  height: 420px;
-  width: 100%;
-  background-position: center;
-  margin-left: 175px;
-  margin-top: 4%;
+  object-fit: 100%;
+  margin-top: -18%;
 }
 
 .imgfondo2{
