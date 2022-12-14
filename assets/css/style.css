@@ -680,7 +680,9 @@ a {
   color: #0E3487;
 
 }
+
 .video-body h1 {
+  
   font-weight: normal;
   letter-spacing: 3px;
   font-size: 24px;
@@ -972,7 +974,7 @@ a {
   background-repeat: no-repeat;
   position: fixed;
   object-fit: 100%;
-  margin-top: 18%;
+  margin-top: -18%;
 }
 
 .imgfondo2{
