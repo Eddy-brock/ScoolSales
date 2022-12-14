@@ -682,7 +682,7 @@ a {
 }
 
 .video-body h1 {
-  
+
   font-weight: normal;
   letter-spacing: 3px;
   font-size: 24px;
@@ -974,7 +974,7 @@ background-size: contain;
   height: 420px;
   width: 100%;
   background-position: center;
-  margin-left: -175px;
+  margin-left: -5px;
   margin-top: 4%;
 }
 
