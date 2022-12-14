@@ -682,7 +682,7 @@ a {
 }
 
 .video-body h1 {
-
+  
   font-weight: normal;
   letter-spacing: 3px;
   font-size: 24px;
@@ -966,17 +966,16 @@ a {
 
 .imgpie2{
 
-  max-width: 1800px;
-  max-height: 455px;
-  background-position: center;
-  background-size: contain;
- 
+background-size: contain;
   background-repeat: no-repeat;
-  position: fixed;
-  object-fit: cover;
-  margin-top: -20%;
-  margin-left: 75px;
 
+  object-fit: cover;
+  position: fixed;
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  margin-left: -175px;
+  margin-top: 4%;
 }
 
 .imgfondo2{
