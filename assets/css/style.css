@@ -626,11 +626,18 @@ a {
   background-size: cover;*/
   padding: 9%;
   color: #0E3487;
-  
- 
 
-  
-}  
+}
+
+.video h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-shadow: 7px 7px 7px #4e4e4e;
+  margin-top: 10%;
+}
+
   .imgfondo{
   background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Linea contenidos-01.png");
   
