@@ -442,6 +442,15 @@ a {
   .main-wellcome .buscador {
     width: 90%;
   }
+   .boxLeft{
+    width: 0%;
+  }
+  .boxRight{
+    width: 0%;
+  }
+  .box{
+    width: 0%;
+  }
 
 }
 
@@ -1354,6 +1363,10 @@ a {
 .box {
   display: flex;
   flex-direction: column;
+  background-size: contain;
+  object-fit: 100%;
+  max-width: 100%;
+    height: auto;
 }
 
 .boxImg {
@@ -1377,18 +1390,22 @@ a {
   color: #000;
   padding: 4px;
 
+  
+  
+
 }
 
 .boxVideos {
   font-size: 11px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
+  
 }
 
 .imgVideo {
-  width: 100px;
+  width: 80px;
 }
 /*# sourceMappingURL=style.css.map */
 
