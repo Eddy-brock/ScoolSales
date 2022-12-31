@@ -410,6 +410,9 @@ a {
   .main-wellcome h1 {
     font-size: 40px;
   }
+  .gotas{
+    max-width: 100px;
+  }
 }
 @media screen and (max-width: 900px) {
   .main-wellcome {
