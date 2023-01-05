@@ -228,7 +228,7 @@ a {
   font-weight: 700;
   position: fixed;
   right: 5%;
-  top: 14%;
+  top: 10%;
   z-index: 200;
 }
 .menu div {
@@ -286,6 +286,13 @@ a {
   color: inherit;
    text-decoration: none;
 }
+
+.logo2 img {
+  display: block;
+}
+.img-fluid {
+  max-width: 97% !important;
+}
 @media screen and (max-width: 900px) 
 {
   .imgProgress {
@@ -315,13 +322,23 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .main-section .navbar img {
   width: auto;
+  
+}
+.logo1 img{
+  display: block;
+}
+.logo2 img{
+  display: none;
 }
 .main-section .navbar .nav-right {
   display: flex;
   align-items: center;
 }
+/*desaparece img1*/
+
 .main-section .navbar .nav-right .nav-icon {
   margin-left: 15px;
 }
@@ -576,7 +593,12 @@ a {
   .hamburger, .sideNav, .bottom-nav {
     display: none;
   }
-
+  .logo1 img{
+    display: none;
+  }
+  .logo2 img{
+    display: block;
+  }
   #pp-nav {
     display: block;
   }
@@ -678,8 +700,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-basis: 50%;
-  padding: 0 5%;
+  /* flex-basis: 50%; */
+  /* padding: 0 5%; */
+  margin-left:4vw;
 }
 .video-description h2 {
   font-weight: normal;
@@ -1357,6 +1380,8 @@ a {
 .box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
  
 }
 
@@ -1379,11 +1404,8 @@ a {
   flex-direction: column;
   background-color: white;
   color: #000;
-  padding: 4px;
-
-  
-  
-
+  padding: 4px; 
+ white-space: nowrap;
 }
 
 .boxVideos {
