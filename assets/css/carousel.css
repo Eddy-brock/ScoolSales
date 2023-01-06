@@ -11,7 +11,7 @@
     position: relative;
     width: 90% !important;
     height: 49vh !important;
-    top:-10px;
+    top:-10px !important;
     overflow: hidden;
     border-radius: 50px;
   }
