@@ -10,7 +10,8 @@
   .carousel-inner {
     position: relative;
     width: 90% !important;
-    height: 44vh !important;
+    height: 49vh !important;
+    top:-10px;
     overflow: hidden;
     border-radius: 50px;
   }
