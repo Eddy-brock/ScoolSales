@@ -1370,6 +1370,12 @@ a {
   }
 }
 
+@media (min-width: 1400px){
+  .container-xxl{
+  max-width: 95vw !important;
+  padding-top: 5vh !important;}
+}
+
 .headroom-top-unpinned {
   top: 0;
 }
