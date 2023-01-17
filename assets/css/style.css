@@ -1,5 +1,7 @@
-
-@font-face {
+html{
+  font-family: 'Raleway', sans-serif !important;
+}
+/* @font-face {
   font-family: "Raleway";
   src: url("fonts/Raleway-BlackItalic.woff2") format("woff2"), url("fonts/Raleway-BlackItalic.woff") format("woff"), url("fonts/Raleway-BlackItalic.ttf") format("truetype");
   font-weight: 900;
@@ -194,7 +196,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */
 * {
   box-sizing: border-box;
   margin: 0;
