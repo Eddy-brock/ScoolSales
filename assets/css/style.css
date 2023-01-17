@@ -318,8 +318,11 @@ a {
     display: none;
   }
 }
+.pp-section{
+  position: fixed !important;
+}
 .main-section {
-  height: 90vh;
+  height: 98vh;
   background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Back-01.png");
   background-size: cover;
   background-position: center;
