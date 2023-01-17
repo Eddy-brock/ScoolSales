@@ -920,7 +920,7 @@ a {
   padding: 0 3%;
 }
 .competencias-buttons a {
-  width: auto;
+  width: 24%;
   text-decoration: none; /*text decoration*/
 }
 .competencias-item {
@@ -928,10 +928,11 @@ a {
   padding: 20px;
   text-decoration: none;
   box-shadow: 3px 3px 8px #4e4e4e;
-  color: #033154;
+  /* color: #033154; */
+  color: white;
   font-size: 24px;
   line-height: 1;
-  height: 10vh;
+  height: 17vh;
 }
 .competencias .liderazgo {
   background-color: #ff0000;
