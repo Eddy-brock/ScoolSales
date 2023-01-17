@@ -684,7 +684,7 @@ a {
   width: 100%;
   background-position: center;
   margin-left: -175px;
-  margin-top: 7vh;
+  margin-top: 2vh;
 
  
 }
@@ -698,6 +698,7 @@ a {
 }
 .video-container picture, .video-container a {
   flex-basis: 250%;
+  margin-top: 2vh;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
