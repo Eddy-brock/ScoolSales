@@ -295,10 +295,10 @@ a {
   margin-bottom: -20px;
 }
 .img-retooling{
-  margin-bottom: -5px;
+  margin-bottom: -30px !important;
 }
 .img-RGM{
-  margin-bottom: -5px;
+  margin-bottom: -40px !important;
 }
 @media screen and (max-width: 900px) 
 {
