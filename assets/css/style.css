@@ -700,7 +700,7 @@ a {
 
 }
 .video-container picture, .video-container a {
-  flex-basis: 200%;
+  flex-basis: 58vw;
   padding-top: 50px;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
@@ -1431,6 +1431,7 @@ a {
   background-color: white;
   color: #000;
   padding: 4px; 
+  margin-top: 50px;
 }
 
 .boxVideos {
