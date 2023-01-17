@@ -687,7 +687,7 @@ a {
   width: 100%;
   background-position: center;
   margin-left: -175px;
-  margin-top: 2vh;
+
 
  
 }
@@ -701,7 +701,7 @@ a {
 }
 .video-container picture, .video-container a {
   flex-basis: 250%;
-  margin-top: 2vh;
+  padding-top: 50px;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
   width: 100%;
@@ -716,7 +716,7 @@ a {
   /* flex-basis: 50%; */
   /* padding: 0 5%; */
   margin-left:4vw;
-  margin-top: 5vh;
+  margin-top: 6vh;
 }
 .video-description h2 {
   font-weight: normal;
