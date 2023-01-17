@@ -920,7 +920,7 @@ a {
   padding: 0 3%;
 }
 .competencias-buttons a {
-  width: 22%;
+  width: auto;
   text-decoration: none; /*text decoration*/
 }
 .competencias-item {
@@ -931,26 +931,30 @@ a {
   color: #033154;
   font-size: 24px;
   line-height: 1;
+  height: 10vh;
 }
 .competencias .liderazgo {
   background-color: #ff0000;
-  margin-bottom: -7%;
-  margin-top: -5%;
+  /* margin-bottom: -7%;
+  margin-top: -5%; */
 }
 .competencias .humanas {
   background-color: #4FADD4;
-  margin-bottom: -7%;
-  margin-top: -7%;
+  /* margin-bottom: -7%;
+  margin-top: -7%; */
 }
 .competencias .tecnicas {
   background-color: #D79C3D;
-  margin-bottom: -7%;
-  margin-top: -8%;
+  /* margin-bottom: -7%;
+  margin-top: -8%; */
 }
 .competencias .tecnicas {
   background-color: #D79C3D;
-  margin-bottom: -7%;
-  margin-top: -8%;
+  /* margin-bottom: -7%;
+  margin-top: -8%; */
+}
+.competencias-buttons a img{
+  margin-bottom: -7px;
 }
 @media screen and (max-width: 900px) {
   .competencias {
@@ -1068,14 +1072,14 @@ a {
 .liderazgo {
   background: linear-gradient(0deg, #d95e6e -0.01%, #d95e6e 2.44%, #d95e6e 13.49%, #d95e6e 27.18%, #d95e6e 46.47%, #d95e6e 100%);
   /* Landscape */
-  margin-bottom: -7%;
-  margin-top: -5%;
+  /* margin-bottom: -7%;
+  margin-top: -5%; */
 }
 .liderazgo2 {
   background: linear-gradient(0deg, #d76039 -0.01%, #d76039 2.44%, #d76039 13.49%, #d76039 27.18%, #d76039 46.47%, #d76039 100%);
   /* Landscape */
-  margin-bottom: -7%;
-  margin-top: -5%;
+  /* margin-bottom: -7%;
+  margin-top: -5%; */
 }
 .liderazgo .section__content {
   justify-content: space-evenly;
