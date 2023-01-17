@@ -661,7 +661,7 @@ a {
   font-family: "Raleway";
   /*background-color:rgb( 83, 144, 171, 100);
   background-size: cover;*/
-  padding: 9%;
+  padding: 6%;
   color: #0E3487;
 
 }
@@ -700,7 +700,7 @@ a {
 
 }
 .video-container picture, .video-container a {
-  flex-basis: 250%;
+  flex-basis: 200%;
   padding-top: 50px;
 }
 .video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
@@ -715,8 +715,8 @@ a {
   align-items: flex-start;
   /* flex-basis: 50%; */
   /* padding: 0 5%; */
-  margin-left:4vw;
-  margin-top: 6vh;
+  margin-left:5vw;
+  margin-top: 10vh;
 }
 .video-description h2 {
   font-weight: normal;
