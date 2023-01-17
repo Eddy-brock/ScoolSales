@@ -292,6 +292,13 @@ a {
 }
 .img-fluid {
   max-width: 97% !important;
+  margin-bottom: -20px;
+}
+.img-retooling{
+  margin-bottom: -5px;
+}
+.img-RGM{
+  margin-bottom: -5px;
 }
 @media screen and (max-width: 900px) 
 {
@@ -955,7 +962,7 @@ a {
   margin-top: -8%; */
 }
 .competencias-buttons a img{
-  margin-bottom: -7px;
+  margin-bottom: -20px;
 }
 @media screen and (max-width: 900px) {
   .competencias {
