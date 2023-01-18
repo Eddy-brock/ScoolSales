@@ -3,6 +3,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
     <link data-include-file="https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV3.css"
         href="https:https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV3.css" rel="stylesheet"
         type="text/css">
@@ -10,12 +12,26 @@
     <link rel="stylesheet" href="/assets/css/jquery.pagepiling.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://eddy-brock.github.io/ScoolSales/assets/css/academias.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- new -->
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--  -->
 </div>
 <script src="https://eddy-brock.github.io/ScoolSales/assets/js/academias.js" defer></script>
+
+
 <div>
     <style>
         #ctl00_pnlBR {
@@ -26,100 +42,110 @@
     <!-- Inicio Modal -->
     <!-- <button id="idbtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     </button> -->
-
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" aria-labelledby="dbschemaModalLabel"
+        aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
-
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <iframe width="400" height="300" allow="autoplay;" frameborder="0" allowfullscreen=""></iframe>
+                    <div class="ratio ratio-16x9">
+                        <video width="100%" controls autoplay loop muted>
+                            <!-- muted -->
+                            <source src="https://eddy-brock.github.io/ScoolSales/assets/img/final_blue.mp4"
+                                type="video/mp4">
+                        </video>
+                        <!-- <iframe id="video" class="embed-responsive-item" src="" allowscriptaccess="always"
+                            allow="autoplay"></iframe> -->
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        $("#myModal").on('hidden.bs.modal', function (e) {
-            $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
-        });
-    </script>
-    <!-- <div>
+
+    <!--  -->
+    <div>
+
         <div class="modal fade" id="exampleModal">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
 
-                    <div class="modal-body"> -->
-    <!-- <video width="100%" >
-                            <source src="/assets/img/final_blue.mp4" type="video/mp4">
-                        </video> -->
-    <!-- <div class="modal-header">
+                    <div class="modal-body">
+                        <video width="100%" controls autoplay>
+                            <source src="https://eddy-brock.github.io/ScoolSales/assets/img/final_blue.mp4"
+                                type="video/mp4">
+                        </video>
+                        <!-- <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                         </div>
                         <div class="modal-body">
                             <iframe width="400" height="300" frameborder="0" allowfullscreen=""></iframe>
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
             </div>
-        </div> -->
+        </div>
 
-    <!-- fin modal -->
-    <script data-include-file="/content/grupobimbo/publications/10210/lxp/carousellepV2.js"
-        src="https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV2.js"></script>
-    <div class="menu">
-        <div><a href="#">Inicio</a></div>
-        <div class="dropdown">
-            <span>Favoritos</span>
-            <div class="dropdown-content">
-                <div class="dropdown-item"><a href="#">Buscador</a></div>
-                <div class="dropdown-item"><a href="#">Banners</a></div>
-                <div class="dropdown-item"><a href="#">Brain</a></div>
-                <div class="dropdown-item"><a href="#">Mis cursos</a></div>
-                <div class="dropdown-item"><a href="#">Competencias</a></div>
-                <div class="dropdown-item"><a href="#">Liderazgo</a></div>
-                <div class="dropdown-item"><a href="#">Portales Externos</a></div>
-                <div class="dropdown-item"><a href="#" class="last">Contáctanos</a></div>
+        <!-- fin modal -->
+        <script data-include-file="/content/grupobimbo/publications/10210/lxp/carousellepV2.js"
+            src="https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV2.js"></script>
+        <div class="menu">
+            <div><a href="#">Inicio</a></div>
+            <div class="dropdown">
+                <span>Favoritos</span>
+                <div class="dropdown-content">
+                    <div class="dropdown-item"><a href="#">Buscador</a></div>
+                    <div class="dropdown-item"><a href="#">Banners</a></div>
+                    <div class="dropdown-item"><a href="#">Brain</a></div>
+                    <div class="dropdown-item"><a href="#">Mis cursos</a></div>
+                    <div class="dropdown-item"><a href="#">Competencias</a></div>
+                    <div class="dropdown-item"><a href="#">Liderazgo</a></div>
+                    <div class="dropdown-item"><a href="#">Portales Externos</a></div>
+                    <div class="dropdown-item"><a href="#" class="last">Contáctanos</a></div>
+                </div>
+            </div>
+            <div><a href="">Categorias</a></div>
+            <div><a href="">Historial</a></div>
+            <div><a href="#">GB University</a></div>
+        </div>
+        <div class="sideNav" id="SideNav">
+            <div class="sideNav-close" onclick="closeNav()">❯</div>
+            <div class="sideNav-menu">
+                <div class="sideNav-item"><a href="#Main">Contenido ▼</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Buscador</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Banners</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Brain</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Mis Cursos</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Competencias</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Liderazgo</a></div>
+                <div class="sideNav-item left-ident"><a href="#">Portales externos</a></div>
+                <div class="sideNav-item"><a href="#">Expediente</a></div>
+                <div class="sideNav-item"><a href="#" alt="">Mi Perfil</a></div>
+                <div class="sideNav-item"><a href="#"><img
+                            src="/content/grupobimbo/publications/10210/img/iconos/contacto-icono.svg"
+                            alt="">Contáctanos</a></div>
+                <div class="sideNav-item"><a href="#">Academias</a></div>
             </div>
         </div>
-        <div><a href="">Categorias</a></div>
-        <div><a href="">Historial</a></div>
-        <div><a href="#">GB University</a></div>
-    </div>
-    <div class="sideNav" id="SideNav">
-        <div class="sideNav-close" onclick="closeNav()">❯</div>
-        <div class="sideNav-menu">
-            <div class="sideNav-item"><a href="#Main">Contenido ▼</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Buscador</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Banners</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Brain</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Mis Cursos</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Competencias</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Liderazgo</a></div>
-            <div class="sideNav-item left-ident"><a href="#">Portales externos</a></div>
-            <div class="sideNav-item"><a href="#">Expediente</a></div>
-            <div class="sideNav-item"><a href="#" alt="">Mi Perfil</a></div>
-            <div class="sideNav-item"><a href="#"><img
-                        src="/content/grupobimbo/publications/10210/img/iconos/contacto-icono.svg"
-                        alt="">Contáctanos</a></div>
-            <div class="sideNav-item"><a href="#">Academias</a></div>
-        </div>
-    </div>
-    <span class="hamburger" onclick="openNav()">☰</span>
+        <span class="hamburger" onclick="openNav()">☰</span>
 
-    <div class="bottom-nav">
-        <div>
-            <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/iconos/Icono Home.svg" alt=""></a>
+        <div class="bottom-nav">
+            <div>
+                <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/iconos/Icono Home.svg"
+                        alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="/content/grupobimbo/publications/10210/img/iconos/Icono Search.svg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="/content/grupobimbo/publications/10210/img/iconos/IconoPerfil.svg" alt=""></a>
+            </div>
         </div>
-        <div>
-            <a href="#"><img src="/content/grupobimbo/publications/10210/img/iconos/Icono Search.svg" alt=""></a>
-        </div>
-        <div>
-            <a href="#"><img src="/content/grupobimbo/publications/10210/img/iconos/IconoPerfil.svg" alt=""></a>
-        </div>
-    </div>
-    <div id="pagepiling">
-        <div class="main-section section d-flex justify-content-between" id="Main">
-            <!-- <div class="navbar">
+        <div id="pagepiling">
+            <div class="main-section section d-flex justify-content-between" id="Main">
+                <!-- <div class="navbar">
                 <div class="nav-left logo1">
                   <br>
                   <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Logo2.png" alt="" style="width: 60vw;">
@@ -132,347 +158,353 @@
                     <a class="nav-icon" style="visibility: hidden;"><img src="/content/grupobimbo/publications/10210/img/iconos/GB Engrane.svg" alt=""></a>
                 </div>
             </div>  -->
-            <br>
-            <div class="main-wellcome" id="mainid">
-                <div class="" style="padding-left: 45px; padding-right:55px; margin-top:-4%;">
-                    <div class="row ">
-                        <div class="col-lg ">
-                            <div class="nav-left logo2">
-                                <br>
-                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Logo2.png" alt=""
-                                    style="width: 100%;">
-                            </div>
-                            <div class="boxLeft ">
-                                <div>
-                                    <h5>
-                                        <b>También te sugerimos ver</b>
-                                    </h5>
+                <br>
+                <div class="main-wellcome" id="mainid">
+
+                    <div class="" style="padding-left: 45px; padding-right:55px; margin-top:-4%;">
+                        <div class="row ">
+                            <div class="col-lg ">
+                                <div class="nav-left logo2">
+                                    <br>
+                                    <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Logo2.png" alt=""
+                                        style="width: 100%;">
                                 </div>
-                                <div class="boxVideos">
+                                <div class="boxLeft ">
                                     <div>
-                                        <img class="imgVideo"
-                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/video01.png">
+                                        <h5>
+                                            <b>También te sugerimos ver</b>
+                                        </h5>
                                     </div>
-                                    <div style="text-align: left;">
-                                        <b>Toma de Clientes</b>
-                                        <br>22 | WEB | 1m 23s
-                                        <br>Carlos Vega, Ceve Tlahuac
-                                        <br>nos cuenta sus Tips con Onda
+                                    <div class="boxVideos">
+                                        <div>
+                                            <img class="imgVideo"
+                                                src="https://eddy-brock.github.io/ScoolSales/assets/img/video01.png">
+                                        </div>
+                                        <div style="text-align: left;">
+                                            <b>Toma de Clientes</b>
+                                            <br>22 | WEB | 1m 23s
+                                            <br>Carlos Vega, Ceve Tlahuac
+                                            <br>nos cuenta sus Tips con Onda
+                                        </div>
                                     </div>
-                                </div>
-                                <br>
-                                <div class="boxVideos">
-                                    <div>
-                                        <img class="imgVideo"
-                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/video02.png">
+                                    <br>
+                                    <div class="boxVideos">
+                                        <div>
+                                            <img class="imgVideo"
+                                                src="https://eddy-brock.github.io/ScoolSales/assets/img/video02.png">
+                                        </div>
+                                        <div style="text-align: left;">
+                                            <b>RGM - The Next Horizon</b>
+                                            <br>2021 | PDF
+                                            <br>Consumer-goods companies
+                                            <br>have learned to capture
+                                            <br>significant value
+                                            <br>from... <span style="color: rgb(219, 37, 37); cursor: pointer;"><b>[Ver
+                                                    más]</b></span>
+                                        </div>
                                     </div>
-                                    <div style="text-align: left;">
-                                        <b>RGM - The Next Horizon</b>
-                                        <br>2021 | PDF
-                                        <br>Consumer-goods companies
-                                        <br>have learned to capture
-                                        <br>significant value
-                                        <br>from... <span style="color: rgb(219, 37, 37); cursor: pointer;"><b>[Ver
-                                                más]</b></span>
+                                    <br>
+                                    <div class="boxVideos">
+                                        <div>
+                                            <img class="imgVideo"
+                                                src="https://eddy-brock.github.io/ScoolSales/assets/img/video03.png">
+                                        </div>
+                                        <div style="text-align: left;">
+                                            <b>Canales de Venta</b>
+                                            <br>2022 |
+                                            <br>Programa de capacitación |
+                                            <br>6m 53s
+                                            <br>Conoce sobre los Canales de
+                                            <br>Ventas en los cuales tenemos
+                                            <br>presencia... <span
+                                                style="color: rgb(219, 37, 37); cursor: pointer;"><b>[Ver
+                                                    más]</b></span>
+                                        </div>
                                     </div>
-                                </div>
-                                <br>
-                                <div class="boxVideos">
-                                    <div>
-                                        <img class="imgVideo"
-                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/video03.png">
-                                    </div>
-                                    <div style="text-align: left;">
-                                        <b>Canales de Venta</b>
-                                        <br>2022 |
-                                        <br>Programa de capacitación |
-                                        <br>6m 53s
-                                        <br>Conoce sobre los Canales de
-                                        <br>Ventas en los cuales tenemos
-                                        <br>presencia... <span style="color: rgb(219, 37, 37); cursor: pointer;"><b>[Ver
-                                                más]</b></span>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="boxVideos">
-                                    <div>
-                                        <img class="imgVideo"
-                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/video04.png">
-                                    </div>
-                                    <div style="text-align: left;">
-                                        <b>Planificación</b>
-                                        <br>2022 | WEB | 10m
-                                        <br>e-Learning sobre la
-                                        <br>planificación que forma parte
-                                        <br>del journey de aprendizaje del
-                                        <br>programa CUIDIVE.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 "
-                            style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; flex-wrap: nowrap;">
-                            <div class="box">
-                                <div class="profilepic">
-                                    <div id="ProfileImageWrapper">
-                                        <div class="boxImg">
-                                            <div><img
-                                                    src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Gotas-1-01.png"
-                                                    alt="" class="img-fluid"></div>
-                                            <div style="box-shadow: 3px 3px 16px black; border-radius: 50%;">
-                                                <a id="ProfileImageLink"
-                                                    href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio&amp;tab_page_id=-20016001">
-                                                    <div class="ProfileImageContainer" id="Image2">
-                                                    </div>
-                                                </a>
-                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/cuadro.jpg"
-                                                    alt="" class="img-fluid">
-                                            </div>
-                                            <div><img
-                                                    src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Gotas-2-01.png"
-                                                    alt="" class="img-fluid"></div>
+                                    <br>
+                                    <div class="boxVideos">
+                                        <div>
+                                            <img class="imgVideo"
+                                                src="https://eddy-brock.github.io/ScoolSales/assets/img/video04.png">
+                                        </div>
+                                        <div style="text-align: left;">
+                                            <b>Planificación</b>
+                                            <br>2022 | WEB | 10m
+                                            <br>e-Learning sobre la
+                                            <br>planificación que forma parte
+                                            <br>del journey de aprendizaje del
+                                            <br>programa CUIDIVE.
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wellcome-txt">
-                                    ¡Hola, {FIRSTNAME}!
+                            </div>
+
+                            <div class="col-lg-5 "
+                                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; flex-wrap: nowrap;">
+                                <div class="box">
+                                    <div class="profilepic">
+                                        <div id="ProfileImageWrapper">
+                                            <div class="boxImg">
+                                                <div><img
+                                                        src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Gotas-1-01.png"
+                                                        alt="" class="img-fluid"></div>
+                                                <div style="box-shadow: 3px 3px 16px black; border-radius: 50%;">
+                                                    <a id="ProfileImageLink"
+                                                        href="/phnx/driver.aspx?routename=Social/UniversalProfile/Bio&amp;tab_page_id=-20016001">
+                                                        <div class="ProfileImageContainer" id="Image2">
+                                                        </div>
+                                                    </a>
+                                                    <img src="https://eddy-brock.github.io/ScoolSales/assets/img/cuadro.jpg"
+                                                        alt="" class="img-fluid">
+                                                </div>
+                                                <div><img
+                                                        src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Gotas-2-01.png"
+                                                        alt="" class="img-fluid"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wellcome-txt">
+                                        ¡Hola, {FIRSTNAME}!
+                                    </div>
+                                    <h6 style="color: #da9a24;">¡Aquí encontrarás todos los contenidos</h6>
+                                    <h6 style="color: #da9a24;">que <b>THE SALES SCHOOL</b> tiene para ti!</h6>
+                                    <div class="buscador responsive">
+                                        <!-- Ir al Buscador de Aprendizaje -->
+                                        <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)"
+                                            value="" placeholder="¿Qué te gustaría aprender hoy? Escribelo aquí"
+                                            style="width: 25vw;">
+                                        <img class="search-icon" onclick="search()"
+                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/search-icon.svg"
+                                            alt="">
+                                    </div>
                                 </div>
-                                <h6 style="color: #da9a24;">¡Aquí encontrarás todos los contenidos</h6>
-                                <h6 style="color: #da9a24;">que <b>THE SALES SCHOOL</b> tiene para ti!</h6>
-                                <div class="buscador responsive">
-                                    <!-- Ir al Buscador de Aprendizaje -->
-                                    <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)"
-                                        value="" placeholder="¿Qué te gustaría aprender hoy? Escribelo aquí"
-                                        style="width: 25vw;">
-                                    <img class="search-icon" onclick="search()"
-                                        src="https://eddy-brock.github.io/ScoolSales/assets/img/search-icon.svg" alt="">
+                            </div>
+                            <div class="col-lg align-middle"
+                                style="display: flex; padding: 4%; justify-content: center;">
+                                <div class="box">
+                                    <div class="align-items-center">
+                                        <img class="imgProgress"
+                                            src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Progreso icon-01.png"
+                                            alt="" width="50%">
+                                    </div>
+                                    <div class="boxRight">
+                                        <b>Consultar</b>
+                                        <br>
+                                        <b>mi progreso</b>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg align-middle" style="display: flex; padding: 4%; justify-content: center;">
-                            <div class="box">
-                                <div class="align-items-center">
-                                    <img class="imgProgress"
-                                        src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Progreso icon-01.png"
-                                        alt="" width="50%">
-                                </div>
-                                <div class="boxRight">
-                                    <b>Consultar</b>
-                                    <br>
-                                    <b>mi progreso</b>
-                                </div>
-                            </div>
+                        <div class="swipe">
+                            <div>Desliza hacia arriba</div>
+                            <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/GBU Flecha Arriba.svg"
+                                alt="">
                         </div>
-                    </div>
-                    <div class="swipe">
-                        <div>Desliza hacia arriba</div>
-                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/GBU Flecha Arriba.svg"
-                            alt="">
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SLIDERS BIMBO-->
+            <!-- SLIDERS BIMBO-->
 
-        <div class="video section" id="Brain"
-            style="background: rgb(2,0,36);
+            <div class="video section" id="Brain"
+                style="background: rgb(2,0,36);
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(83,144,171,1) 57%, rgba(41,149,180,1) 100%, rgba(187,86,178,1) 100%); padding-top: 5%;">
-            <div class=" imgfondo ">
-            </div>
-            <h3 class="text-center" style="color: white; margin-bottom: 50px;">NUEVOS CONTENIDOS</h3>
+                <div class=" imgfondo ">
+                </div>
+                <h3 class="text-center" style="color: white; margin-bottom: 50px;">NUEVOS CONTENIDOS</h3>
 
 
 
-            <div class="video-container">
+                <div class="video-container">
 
-                <picture>
+                    <picture>
 
-                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"><br></li>
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"><br></li>
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="2"><br></li>
-                            <li data-bs-target="#myCarousel" data-bs-slide-to="3"><br></li>
-                        </ol>
+                        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"><br></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="1"><br></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="2"><br></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="3"><br></li>
+                            </ol>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
 
-                            <div class="carousel-item">
-                                <a href="https://brain-gbuniversity.com/">
-                                    <picture>
-                                        <source media="(min-width: 700px)"
-                                            srcset="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png">
-                                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png"
-                                            alt="">
-                                    </picture>
-                                </a>
+                                <div class="carousel-item">
+                                    <a href="https://brain-gbuniversity.com/">
+                                        <picture>
+                                            <source media="(min-width: 700px)"
+                                                srcset="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png">
+                                            <img src="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a
+                                        href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/2a897470-2991-4f95-9051-9ae29ff907ed_Competencias_Tecnicas__Academias_y_Escuelas_PDF.pdf">
+                                        <picture>
+                                            <source media="(min-width: 700px)"
+                                                srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png">
+                                            <img src="https://eddy-brock.github.io/ScoolSales/assets/img/comp_tec_esp.png"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <a href="/ui/lms-learning-details/app/video/b079fc5f-62a8-42d5-b6ad-0a89663c3054">
+                                        <picture>
+                                            <source media="(min-width: 700px)"
+                                                srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_desk_esp.png">
+                                            <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_app_esp.png"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
+
+                                <div class="carousel-item active">
+                                    <a href=" ">
+                                        <picture>
+                                            <source media="(min-width: 700px)"
+                                                srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png">
+                                            <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png"
+                                                alt="">
+                                        </picture>
+                                    </a>
+                                </div>
                             </div>
 
-                            <div class="carousel-item">
-                                <a
-                                    href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/2a897470-2991-4f95-9051-9ae29ff907ed_Competencias_Tecnicas__Academias_y_Escuelas_PDF.pdf">
-                                    <picture>
-                                        <source media="(min-width: 700px)"
-                                            srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png">
-                                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/comp_tec_esp.png"
-                                            alt="">
-                                    </picture>
-                                </a>
-                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev btn-lg" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next btn-lg" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
 
-                            <div class="carousel-item">
-                                <a href="/ui/lms-learning-details/app/video/b079fc5f-62a8-42d5-b6ad-0a89663c3054">
-                                    <picture>
-                                        <source media="(min-width: 700px)"
-                                            srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_desk_esp.png">
-                                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_app_esp.png"
-                                            alt="">
-                                    </picture>
-                                </a>
-                            </div>
-
-                            <div class="carousel-item active">
-                                <a href=" ">
-                                    <picture>
-                                        <source media="(min-width: 700px)"
-                                            srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png">
-                                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png"
-                                            alt="">
-                                    </picture>
-                                </a>
-                            </div>
                         </div>
 
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev btn-lg" type="button" data-bs-target="#myCarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a class="carousel-control-next btn-lg" type="button" data-bs-target="#myCarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="visually-hidden">Next</span>
-                        </a>
-
-                    </div>
-
-                </picture>
+                    </picture>
 
 
 
-                <div class="video-information">
+                    <div class="video-information">
 
-                    <div class="video-description">
-                        <div class="video-body">
-                            <div style="margin-top: 10px;">
-                                <h1><strong>Exhibiciones </strong> </h1>
-                                <p type="submit" href="#" class="badge rounded-pill bg">
-                                    Eduardo Martin Ortega, Clave Tlahuac<br>
-                                    nos comparte sus tips con onda</p><br>
-                                <!--<a href="/catalog/CustomPage.aspx?id=221000390" target="_blank">Ver</a>-->
-                                <button type="button" class="btn btn-danger rounded-pill"><i
-                                        class="bi bi-play-circle"></i> ver</button>
-                                <span type="submit" href="#" class="badge rounded-pill bg"><i
-                                        class="bi bi-bookmark"></i> Favoritos</span>
-                                <span type="submit" href="#" class="badge rounded-pill bg"><i
-                                        class="bi bi-info-circle"></i> Info</span>
+                        <div class="video-description">
+                            <div class="video-body">
+                                <div style="margin-top: 10px;">
+                                    <h1><strong>Exhibiciones </strong> </h1>
+                                    <p type="submit" href="#" class="badge rounded-pill bg">
+                                        Eduardo Martin Ortega, Clave Tlahuac<br>
+                                        nos comparte sus tips con onda</p><br>
+                                    <!--<a href="/catalog/CustomPage.aspx?id=221000390" target="_blank">Ver</a>-->
+                                    <button type="button" class="btn btn-danger rounded-pill"><i
+                                            class="bi bi-play-circle"></i> ver</button>
+                                    <span type="submit" href="#" class="badge rounded-pill bg"><i
+                                            class="bi bi-bookmark"></i> Favoritos</span>
+                                    <span type="submit" href="#" class="badge rounded-pill bg"><i
+                                            class="bi bi-info-circle"></i> Info</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SECTION CURSOS-->
+            <!-- SECTION CURSOS-->
 
-        <div class="competencias section" id="Competencias" style="padding-top: 0%;">
-            <h1>Nuestras Categorias</h1>
+            <div class="competencias section" id="Competencias" style="padding-top: 0%;">
+                <h1>Nuestras Categorias</h1>
 
-            <h3 style="color: rgb(214, 210, 94);">Da clic en la Categoría que te interese y accede a sus contenidos.
-            </h3>
+                <h3 style="color: rgb(214, 210, 94);">Da clic en la Categoría que te interese y accede a sus
+                    contenidos.
+                </h3>
 
-            <div class="competencias-buttons">
-                <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon growth.svg"
-                        class="img-fluid " style="width: 85px; height: 100px;">
-                    <div class="competencias-item liderazgo "><strong>Growth based</strong><br><span
-                            style="font-weight: 900; font-size: 18px;">On our Go to Market<br><span
-                                style="text-transform: capitalize; font-size: 17px;">Transformation</span></span>
-                    </div>
-                </a>
+                <div class="competencias-buttons">
+                    <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon growth.svg"
+                            class="img-fluid " style="width: 85px; height: 100px;">
+                        <div class="competencias-item liderazgo "><strong>Growth based</strong><br><span
+                                style="font-weight: 900; font-size: 18px;">On our Go to Market<br><span
+                                    style="text-transform: capitalize; font-size: 17px;">Transformation</span></span>
+                        </div>
+                    </a>
 
-                <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon retooling.svg"
-                        class="img-fluid " style="width: 85px; height: 100px;">
-                    <div class="competencias-item humanas "><strong>Retooling Commercial</strong><br><span
-                            style="font-weight: 900; font-size: 18px;">Functions tgrough<br><span
-                                style="text-transform: capitalize; font-size: 17px;">Technological
-                                Enablers</span></span></div>
-                </a>
+                    <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon retooling.svg"
+                            class="img-fluid " style="width: 85px; height: 100px;">
+                        <div class="competencias-item humanas "><strong>Retooling Commercial</strong><br><span
+                                style="font-weight: 900; font-size: 18px;">Functions tgrough<br><span
+                                    style="text-transform: capitalize; font-size: 17px;">Technological
+                                    Enablers</span></span></div>
+                    </a>
 
-                <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon RGM.svg"
-                        class="img-fluid " style="width: 85px; height: 100px;">
-                    <div class="competencias-item tecnicas "><strong>RGM Global</strong><br><span
-                            style="font-weight: 900; font-size: 18px;">Deployment<br><span
-                                style="text-transform: capitalize; font-size: 17px;">
-                                <p>&nbsp;</p>
-                            </span></span></div>
-                </a>
+                    <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon RGM.svg"
+                            class="img-fluid " style="width: 85px; height: 100px;">
+                        <div class="competencias-item tecnicas "><strong>RGM Global</strong><br><span
+                                style="font-weight: 900; font-size: 18px;">Deployment<br><span
+                                    style="text-transform: capitalize; font-size: 17px;">
+                                    <p>&nbsp;</p>
+                                </span></span></div>
+                    </a>
 
-                <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon sales.svg"
-                        class="img-fluid " style="width: 85px; height: 100px;">
-                    <div class="competencias-item liderazgo2"><strong>Sales Leadership</strong><br><span
-                            style="font-weight: 900; font-size: 18px;">With New Capabilities<br><span
-                                style="text-transform: capitalize; font-size: 17px;">
-                                <p>&nbsp;</p>
-                            </span></span></div>
-                </a>
-            </div>
-            <div class="imgpie">
-                <!-- <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Linea_categorias.svg"> -->
-            </div>
-        </div>
-
-        <div class="competencia section" id="favoritos" style="padding-top: 0%;">
-            <h1>Favoritos</h1>
-            <h3>Aqui encontrarás los cursos que guardaste para más tarde.</h3>
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="d-flex justify-content-center">
-                    <div class="carouselContainer" id="myLO2">
-
-                    </div>
-
-                    <script>
-                        getLXPWidget('Continue', 'myLO2');
-                    </script>
-
-
+                    <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon sales.svg"
+                            class="img-fluid " style="width: 85px; height: 100px;">
+                        <div class="competencias-item liderazgo2"><strong>Sales Leadership</strong><br><span
+                                style="font-weight: 900; font-size: 18px;">With New Capabilities<br><span
+                                    style="text-transform: capitalize; font-size: 17px;">
+                                    <p>&nbsp;</p>
+                                </span></span></div>
+                    </a>
                 </div>
-                <!--<div class="d-flex justify-content-start">
+                <div class="imgpie">
+                    <!-- <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Linea_categorias.svg"> -->
+                </div>
+            </div>
+
+            <div class="competencia section" id="favoritos" style="padding-top: 0%;">
+                <h1>Favoritos</h1>
+                <h3>Aqui encontrarás los cursos que guardaste para más tarde.</h3>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="d-flex justify-content-center">
+                        <div class="carouselContainer" id="myLO2">
+
+                        </div>
+
+                        <script>
+                            getLXPWidget('Continue', 'myLO2');
+                        </script>
+
+
+                    </div>
+                    <!--<div class="d-flex justify-content-start">
               
                             </div>-->
 
+                </div>
+                <div class="d-flex align-items-start"
+                    style="margin-top:-8%; position: fixed; object-fit: cover; background-size: contain;">
+                    <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Mujer compu-01.png"
+                        class="img-fluid imgpie2">
+                              
+                </div>
+
             </div>
-            <div class="d-flex align-items-start"
-                style="margin-top:-8%; position: fixed; object-fit: cover; background-size: contain;">
-                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/PNG/Mujer compu-01.png"
-                    class="img-fluid imgpie2">
-                          
-            </div>
+            <script src="https://eddy-brock.github.io/ScoolSales/assets/js/jquery.min.js"></script>
+            <script src="/assets/js/app.js"></script>
+            <!-- <script src="https://eddy-brock.github.io/ScoolSales/assets/js/bootstrap.min.js"></script> -->
+
+            <script type="text/javascript"
+                src="https://eddy-brock.github.io/ScoolSales/assets/js/jquery.pagepiling.js"></script>
+
 
         </div>
-        <script src="https://eddy-brock.github.io/ScoolSales/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/app.js"></script>
-        <script src="https://eddy-brock.github.io/ScoolSales/assets/js/bootstrap.min.js"></script>
-
-        <script type="text/javascript"
-            src="https://eddy-brock.github.io/ScoolSales/assets/js/jquery.pagepiling.js"></script>
-
 
     </div>
-
-</div>
 </div>

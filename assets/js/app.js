@@ -6,12 +6,20 @@ function closeNav() {
     document.getElementById("SideNav").style.width = "0";
 }
 //funcion modal
-
 function redireccionar() {
-        var src = 'https://eddy-brock.github.io/ScoolSales/assets/img/iconos/final_blue.mp4?autoplay=1';
+        var src = 'https://eddy-brock.github.io/ScoolSales/assets/img/final_blue.mp4';
+        var src2 =''; 
+        var videoModal = document.getElementById('myModal')
+        var video = document.getElementById('video')
         $('#myModal').modal('show');
-        $('#myModal iframe').attr('src', src);
-    //$('#exampleModal').modal('show');
+    // videoModal.addEventListener('shown.bs.modal',(e)=>{
+    //     video.setAttribute('src', src + '?autoplay=1&amp;modestbranding=1&amp;showinfo=0')
+    // })
+    
+    // videoModal.addEventListener('hide.bs.modal',(e)=>{
+    //     video.setAttribute('src', src2)
+    // })
+    
 }
 setTimeout("redireccionar()", 1000);
 //funcion modal video
