@@ -1460,3 +1460,10 @@ a {
 #favoritos {
   background-image: url('https://eddy-brock.github.io/ScoolSales/assets/img/fondo.jpg');
 } */
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
+
+
+

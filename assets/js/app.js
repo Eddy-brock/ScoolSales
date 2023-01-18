@@ -5,6 +5,16 @@ function openNav() {
 function closeNav() {
     document.getElementById("SideNav").style.width = "0";
 }
+//funcion modal
+
+function redireccionar() {
+        var src = 'https://eddy-brock.github.io/ScoolSales/assets/img/iconos/final_blue.mp4?autoplay=1';
+        $('#myModal').modal('show');
+        $('#myModal iframe').attr('src', src);
+    //$('#exampleModal').modal('show');
+}
+setTimeout("redireccionar()", 1000);
+//funcion modal video
 
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
