@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-2315E2628C7336A7FF4181FB2CE5FB10" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <organizations default="ORG-FDE765EB0A130521C30B6886F326AE77">
+    <organization identifier="ORG-FDE765EB0A130521C30B6886F326AE77" structure="hierarchical">
+      <title>Recursos pagina de Sales School(No mover)</title>
+      <item identifier="ITEM-243614C3DE8C4F32B00BC3A03500165C" isvisible="true" identifierref="RES-AA5C82454B0273FDAF2796F69978353C">
+        <title>Recursos pagina de sales School(No mover)</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-AA5C82454B0273FDAF2796F69978353C" adlcp:scormType="sco" href="index.html" type="webcontent">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>

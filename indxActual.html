@@ -4,11 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCHOOL SALES</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&amp;display=swap" rel="stylesheet">
     <link data-include-file="https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV3.css"
         href="https:https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV3.css" rel="stylesheet"
         type="text/css">
+
     <link rel="stylesheet" href="https://eddy-brock.github.io/ScoolSales/assets/css/carousel.css">
     <link rel="stylesheet" href="https://eddy-brock.github.io/ScoolSales/assets/css/jquery.pagepiling.css">
     <link rel="stylesheet" href="https://eddy-brock.github.io/ScoolSales/assets/css/style.css">
@@ -28,27 +29,34 @@
 
 
     <div>
+        <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" aria-labelledby="dbschemaModalLabel"
+            aria-hidden="true" role="dialog">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <video width="100%" controls="" autoplay="" loop="" muted="">
+                                <!-- muted -->
+                                <source src="/content/grupobimbo/publications/11541/assets/img/final_blue.mp4"
+                                    type="video/mp4">
+                            </video>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script data-include-file="/content/grupobimbo/publications/10210/lxp/carousellepV2.js"
             src="https://eddy-brock.github.io/ScoolSales/assets/js/carousellepV2.js"></script>
         <div class="menu">
-            <div><a href="#">Inicio</a></div>
-            <div class="dropdown">
-                <span>Más</span>
-                <div class="dropdown-content">
-                    <div class="dropdown-item"><a href="#searchbox2">Buscador</a></div>
-                    <div class="dropdown-item"><a href="#Brain">Nuevos contenidos</a></div>
-
-                    <div class="dropdown-item"><a href="#">Mis cursos</a></div>
-                    <div class="dropdown-item"><a href="#">Competencias</a></div>
-                    <div class="dropdown-item"><a href="#">Liderazgo</a></div>
-                    <div class="dropdown-item"><a href="#">Portales Externos</a></div>
-                    <div class="dropdown-item"><a href="#" class="last">Contáctanos</a></div>
-                </div>
-            </div>
-            <div><a href="#Competencias">Categorias</a></div>
-            <div><a href="#favoritos">Favoritos</a></div>
-            <div><a href="#">GB University</a></div>
+            <div><a href="#Main">Inicio</a></div>
+            <div><a href="#Cursos">Favoritos</a></div>
+            <div><a href="#Brain">Categorias</a></div>
+            <div><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Historial</a></div>
+            <div><a href="/catalog/CustomPage.aspx?id=221000378">GB University</a></div>
         </div>
         <div class="sideNav" id="SideNav">
             <div class="sideNav-close" onclick="closeNav()">❯</div>
@@ -69,9 +77,7 @@
                 <div class="sideNav-item"><a href="#">Academias</a></div>
             </div>
         </div>
-
         <span class="hamburger" onclick="openNav()">☰</span>
-
         <div class="bottom-nav">
             <div>
                 <a href="#"><img src="https://eddy-brock.github.io/ScoolSales/assets/img/iconos/Icono Home.svg"
@@ -240,16 +246,13 @@
 
             <div class="video section" id="Brain"
                 style="background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(83,144,171,1) 57%, rgba(41,149,180,1) 100%, rgba(187,86,178,1) 100%); padding-top: 5%;">
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(83,144,171,1) 57%, rgba(41,149,180,1) 100%, rgba(187,86,178,1) 100%); padding-top: 0%;">
                 <div class="container-xxl">
-                    <div class=" imgfondo ">
-                    </div>
-
-
-                    <h1 class="text-center" style="color: white; margin-bottom: 50px;">
+                    <h1 class="text-center" style="color: white; margin-bottom: 30px;">
                         <font size="5">NUEVOS CONTENIDOS</font>
                     </h1>
-
+                    <div class=" imgfondo ">
+                    </div>
                     <div class="video-container">
 
                         <picture>
@@ -260,18 +263,18 @@
                                     <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"><br></li>
                                     <li data-bs-target="#myCarousel" data-bs-slide-to="1"><br></li>
                                     <li data-bs-target="#myCarousel" data-bs-slide-to="2"><br></li>
-                                    <li data-bs-target="#myCarousel" data-bs-slide-to="3"><br></li>
+                                    <!-- <li data-bs-target="#myCarousel" data-bs-slide-to="3"><br></li> -->
                                 </ol>
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
 
-                                    <div class="carousel-item">
+                                    <div class="carousel-item active">
                                         <a href="https://brain-gbuniversity.com/">
                                             <picture>
                                                 <source media="(min-width: 700px)"
-                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png">
-                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/prueba1.png"
+                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC1.png">
+                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC1.png"
                                                     alt="">
                                             </picture>
                                         </a>
@@ -282,8 +285,8 @@
                                             href="https://grupobimbo-pilot.csod.com/clientimg/grupobimbo/MaterialSource/2a897470-2991-4f95-9051-9ae29ff907ed_Competencias_Tecnicas__Academias_y_Escuelas_PDF.pdf">
                                             <picture>
                                                 <source media="(min-width: 700px)"
-                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_esp.png">
-                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/comp_tec_esp.png"
+                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC2.png">
+                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC2.png"
                                                     alt="">
                                             </picture>
                                         </a>
@@ -294,14 +297,14 @@
                                             href="/ui/lms-learning-details/app/video/b079fc5f-62a8-42d5-b6ad-0a89663c3054">
                                             <picture>
                                                 <source media="(min-width: 700px)"
-                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_desk_esp.png">
-                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/Banner_Centros_app_esp.png"
+                                                    srcset="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC3.png">
+                                                <img src="https://eddy-brock.github.io/ScoolSales/assets/img/NuevosC3.png"
                                                     alt="">
                                             </picture>
                                         </a>
                                     </div>
 
-                                    <div class="carousel-item active">
+                                    <!-- <div class="carousel-item active">
                                         <a href=" ">
                                             <picture>
                                                 <source media="(min-width: 700px)"
@@ -310,7 +313,7 @@
                                                     alt="">
                                             </picture>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
 
                                 <!-- Left and right controls -->
@@ -365,7 +368,7 @@
 
                     <div class="competencias-buttons">
                         <a
-                            href="https://grupobimbo-pilot.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=e6df34da-a043-45aa-ba8b-5ca379b01649"><img
+                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=4a778f64-7b7d-4296-80cc-25d2a43da7e3"><img
                                 src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon growth.svg"
                                 class="img-fluid " style="width: 85px; height: 100px;">
                             <div class="competencias-item liderazgo "><strong>Growth based</strong><br><span
@@ -375,19 +378,19 @@
                         </a>
 
                         <a
-                            href="https://grupobimbo-pilot.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=4ef291bc-65d8-4d85-b24d-5bae0c384dc8"><img
+                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=c9882bb6-0c6e-423d-bb37-8d64df4bbf40"><img
                                 src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon retooling.svg"
-                                class="img-fluid " style="width: 85px; height: 100px;">
+                                class="img-fluid img-retooling " style="width: 85px; height: 110px;">
                             <div class="competencias-item humanas "><strong>Retooling Commercial</strong><br><span
                                     style="font-weight: 900; font-size: 18px;">Functions through<br><span
                                         style="text-transform: capitalize; font-size: 17px;">Technological
-                                        Enablers</span></span></div>
+                                        Enables</span></span></div>
                         </a>
 
                         <a
-                            href="https://grupobimbo-pilot.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=6b181de5-eacc-4ba4-844e-dfbf33da8809"><img
+                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=37632237-1522-408c-bf7f-62c46e6581aa"><img
                                 src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon RGM.svg"
-                                class="img-fluid " style="width: 85px; height: 100px;">
+                                class="img-fluid img-RGM " style="width: 85px; height: 120px;">
                             <div class="competencias-item tecnicas "><strong>RGM Global</strong><br><span
                                     style="font-weight: 900; font-size: 18px;">Deployment<br><span
                                         style="text-transform: capitalize; font-size: 17px;">
@@ -396,18 +399,18 @@
                         </a>
 
                         <a
-                            href="https://grupobimbo-pilot.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=fd0542af-4275-4de7-856f-1d3bce79a8ad"><img
+                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=ec4e2e44-4e76-4f77-9511-c8804359d901"><img
                                 src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Icon sales.svg"
                                 class="img-fluid " style="width: 85px; height: 100px;">
                             <div class="competencias-item liderazgo2"><strong>Sales Leadership</strong><br><span
-                                    style="font-weight: 900; font-size: 18px;">With New Capabilities<br><span
+                                    style="font-weight: 900; font-size: 18px;">with New Capabilities<br><span
                                         style="text-transform: capitalize; font-size: 17px;">
                                         <p>&nbsp;</p>
                                     </span></span></div>
                         </a>
                     </div>
                     <div class="imgpie">
-                        <!-- <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Linea_categorias.svg"> -->
+                        <img src="https://eddy-brock.github.io/ScoolSales/assets/img/scool/Linea_categorias.svg">
                     </div>
                 </div>
             </div>
@@ -461,10 +464,6 @@
                     </script>
 
                 </div>
-                <!--<div class="d-flex justify-content-start">
-              
-                            </div>-->
-
 
 
             </div>
